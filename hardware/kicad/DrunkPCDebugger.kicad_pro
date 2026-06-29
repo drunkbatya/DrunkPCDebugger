@@ -646,11 +646,6 @@
         "filename": "DrunkPCDebugger.kicad_sch",
         "name": "DrunkPCDebugger",
         "uuid": "1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-      },
-      {
-        "filename": "untitled.kicad_sch",
-        "name": "Untitled",
-        "uuid": "bb029b59-28ec-4d57-81e2-4799705fa546"
       }
     ],
     "used_designators": "SW2-3,3v3_1,X1,Q1-3,C1-6,C9,C38-43,C59-74,#PWR1-72,GND1,R1-56,USB1,H1-2,U1-10",
@@ -660,10 +655,6 @@
     [
       "1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce",
       "DrunkPCDebugger"
-    ],
-    [
-      "bb029b59-28ec-4d57-81e2-4799705fa546",
-      "Untitled"
     ]
   ],
   "text_variables": {},
