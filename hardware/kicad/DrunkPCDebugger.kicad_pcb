@@ -14786,21 +14786,22 @@
 		(descr "-40℃~+85℃ 1 2.7V~3.6V 4.5V~5.5V 8 Bidirectional Tri-State TSSOP-24 Translators, Level Shifters ROHS")
 		(tags "74LVX4245MTCX C61186 TSSOP-24_L7.8-W4.4-P0.65-LS6.4-BL onsemi")
 		(property "Reference" "U7"
-			(at 5.1 -0.5 90)
-			(layer "F.SilkS")
-			(uuid "41b63edc-5675-4407-8923-99d1bbe94981")
+			(at 4.35 -3.15 0)
+			(layer "B.SilkS")
+			(uuid "daddb7aa-be85-40b7-8b25-3b10953dc96d")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "74LVX4245MTCX"
 			(at 0 -4.847605 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "15d4d179-737c-4d26-a1d2-2f15cde2afa2")
+			(uuid "d41cb570-7164-41f6-a1bc-fc7460028dee")
 			(effects
 				(font
 					(size 1 1)
@@ -14813,7 +14814,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "45a1a8ae-a884-4fdb-b636-62c3f457107e")
+			(uuid "99499a12-af23-4aa5-b174-8c2e82ab8636")
 			(effects
 				(font
 					(size 1 1)
@@ -14826,7 +14827,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e1431393-8feb-4e8d-b1d6-2ef29243c89b")
+			(uuid "7ee2e6f8-15c0-4b77-830f-c45f485603ff")
 			(effects
 				(font
 					(size 1 1)
