@@ -11442,12 +11442,6 @@
 		(uuid "79a266e2-3430-4502-b956-4dc0089b49c9")
 	)
 	(junction
-		(at 234.95 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79d6ae0f-63a4-4d70-b76c-06ec1ff0aca4")
-	)
-	(junction
 		(at 370.84 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11508,6 +11502,12 @@
 		(uuid "8fa9b686-6319-4c6f-90a5-5e3cdf3c8e7e")
 	)
 	(junction
+		(at 234.95 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "903a9463-bd85-406f-93c2-a6421ac824f8")
+	)
+	(junction
 		(at 370.84 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11524,6 +11524,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "958e4adb-c1bb-4007-81f1-519707b52b1a")
+	)
+	(junction
+		(at 196.85 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a349062-eabb-42a5-9468-72d27259d065")
 	)
 	(junction
 		(at 151.13 172.72)
@@ -11746,6 +11752,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb832c27-df23-4d2d-afad-015b1fce345c")
+	)
+	(junction
+		(at 227.33 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee3e8cd4-0ff2-4fd1-bba8-2bdda890b7b2")
 	)
 	(junction
 		(at 87.63 222.25)
@@ -12283,6 +12295,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 215.9) (xy 227.33 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c05169-4542-471f-b732-7ff8a9f4750f")
+	)
+	(wire
+		(pts
 			(xy 370.84 203.2) (xy 373.38 203.2)
 		)
 		(stroke
@@ -12630,6 +12652,16 @@
 			(type default)
 		)
 		(uuid "228a9fd3-bb56-41cb-81eb-6bdb4326fae0")
+	)
+	(wire
+		(pts
+			(xy 196.85 201.93) (xy 196.85 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22951b44-448d-4a89-81a2-47e3d4b6ea99")
 	)
 	(wire
 		(pts
@@ -15003,7 +15035,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 209.55) (xy 227.33 227.33)
+			(xy 227.33 209.55) (xy 227.33 215.9)
 		)
 		(stroke
 			(width 0)
@@ -15760,6 +15792,16 @@
 			(type default)
 		)
 		(uuid "9f52ba6c-fec6-4298-ac12-8e2d95fb10fd")
+	)
+	(wire
+		(pts
+			(xy 227.33 215.9) (xy 236.22 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f52f056-80be-46b6-871d-d1237a79378e")
 	)
 	(wire
 		(pts
@@ -23081,84 +23123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 49.53 240.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "302f9eb6-efb7-4633-b549-2f5e18677560")
-		(property "Reference" "#PWR019"
-			(at 49.53 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_VBUS"
-			(at 49.53 234.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 49.53 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d2caca55-6a79-47df-8e8f-dd5da1d659e8")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLCImport:RT0603BRD0710KL")
 		(at 251.46 186.69 90)
 		(unit 1)
@@ -24774,84 +24738,6 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 234.95 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44fe9c07-a692-4675-895a-81051ca9b94d")
-		(property "Reference" "#PWR029"
-			(at 234.95 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_VBUS"
-			(at 234.95 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 234.95 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7715b12-bbd4-46f8-badb-b5dbb103935c")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -29206,6 +29092,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 234.95 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8adaa3c3-fa3b-4ee4-8312-1ea7436aeb91")
+		(property "Reference" "#PWR074"
+			(at 234.95 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 234.95 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 234.95 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e06e023f-7e6b-4c15-8053-5c488ba544c2")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:CL10A475KO8NNNC")
 		(at 135.89 247.65 90)
 		(unit 1)
@@ -29604,6 +29568,150 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 236.22 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "924a1228-91db-4915-95ec-04859b1d9e3f")
+		(property "Reference" "5v_bus_1"
+			(at 233.934 210.312 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5vBus"
+			(at 234.696 210.566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 241.3 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TestPoint"
+			(at 236.22 208.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "nf"
+			(at 236.22 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" "nf"
+			(at 236.22 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "nf"
+			(at 236.22 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "nf"
+			(at 236.22 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "схема 1" ""
+			(at 236.22 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 236.22 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3e25b5d-e096-4d8f-ab63-7e21bafabcc2")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "5v_bus_1")
 					(unit 1)
 				)
 			)
@@ -30891,6 +30999,150 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 196.85 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a170408f-7fc3-4b38-928e-6573e0eb7af1")
+		(property "Reference" "5v_1"
+			(at 194.564 196.342 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5v"
+			(at 195.326 196.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 201.93 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TestPoint"
+			(at 196.85 194.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "nf"
+			(at 196.85 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" "nf"
+			(at 196.85 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "nf"
+			(at 196.85 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "nf"
+			(at 196.85 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "схема 1" ""
+			(at 196.85 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 196.85 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7143a66a-5a67-4d99-adaf-afdc3a0001c8")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "5v_1")
 					(unit 1)
 				)
 			)
@@ -34063,6 +34315,84 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c528716e-9fdb-4c0d-90bb-a61cf057c99b")
+		(property "Reference" "#PWR073"
+			(at 49.53 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 49.53 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 49.53 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87a95907-d9c5-4fc7-ae4f-481ee05f6477")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
