@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package debugger;
+
+message AcquireBusRequest {
+}
+
+enum ErrType {
+    ERROR_TYPE_UNSPECIFIED = 0;
+    ERROR_TYPE_PIZDA = 1;
+}
+
+message ErrorResponse {
+    ErrType err_type = 1;
+    optional string msg = 2;
+}
+
+message RpcRequest {
+    uint32 request_id = 1;
+
+    oneof payload {
+        AcquireBusRequest acquire_bus = 2;
+    }
+}
+
+message RpcResponse {
+    uint32 request_id = 1;
+
+    oneof payload {
+        ErrorResponse acquire_bus = 2;
+    }
+}
