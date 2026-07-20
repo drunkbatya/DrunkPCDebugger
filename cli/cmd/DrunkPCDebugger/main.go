@@ -1,20 +1,18 @@
 package main
 
-import "os"
-import "fmt"
-import "log"
-import "google.golang.org/protobuf/proto"
-import pb "DrunkPCDebugger/generated"
-import "DrunkPCDebugger/internal/transport"
-import "DrunkPCDebugger/internal/args"
-import "DrunkPCDebugger/internal/logging"
+import (
+	"os"
+	"fmt"
+	"log"
+	"google.golang.org/protobuf/proto"
+	pb "DrunkPCDebugger/generated"
+	"DrunkPCDebugger/internal/transport"
+	"DrunkPCDebugger/internal/args"
+	"DrunkPCDebugger/internal/logging"
+)
 
 func main() {
 	args := args.Parse()
-
-	if args.OnlyShowVersion {
-		os.Exit(1)
-	}
 
 	loggerCore, err := logging.NewAppLogger(args.LogLevel)
 	if err != nil {
@@ -23,11 +21,23 @@ func main() {
 	defer loggerCore.Sync()
 	logger := loggerCore.Sugar()
 
-	tr, err := transport.NewSerial(args.Port, 115200, logger)
-	if err != nil {
-		logger.Fatalf("%v", err)
+	_, transportErr := transport.NewSerial(args.Port, 115200, logger)
+
+	if args.OnlyShowVersion {
+		cliVersion := "1.0.1"
+		fmt.Printf("Tool:\n\t%s\n", cliVersion)
+
+		if transportErr == nil {
+			deviceVersion := "2.0.0"
+			fmt.Printf("Device:\n\t%s\n", deviceVersion)
+		}
+
+		os.Exit(1)
 	}
-	fmt.Printf("%v %v\n", tr)
+
+	if transportErr != nil {
+		logger.Fatalf("%v", transportErr)
+	}
 
 	request := &pb.RpcRequest{
 		RequestId: 1,
@@ -38,7 +48,7 @@ func main() {
 
 	requestData, err := proto.Marshal(request)
 	if err != nil {
-		//return nil, fmt.Errorf("marshal request: %w", err)
+		fmt.Printf("%v\n", err)
 	}
 	fmt.Printf("%v\n", requestData)
 }
