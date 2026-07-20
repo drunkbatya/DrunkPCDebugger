@@ -31,7 +31,10 @@ C_SOURCES := \
 	src/targets/$(HW_TARGET)/stm/Core/Src/sysmem.c \
 	src/targets/$(HW_TARGET)/stm/Core/Src/syscalls.c \
 	src/targets/$(HW_TARGET)/stm/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_tim.c \
-	src/targets/$(HW_TARGET)/stm/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_dma.c
+	src/targets/$(HW_TARGET)/stm/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_dma.c \
+	src/targets/$(HW_TARGET)/stm/Core/Src/gpio.c \
+	src/targets/$(HW_TARGET)/stm/Core/Src/tim.c \
+	src/targets/$(HW_TARGET)/stm/Core/Src/usb_otg.c
 
 
 C_SOURCES += $(shell find src \

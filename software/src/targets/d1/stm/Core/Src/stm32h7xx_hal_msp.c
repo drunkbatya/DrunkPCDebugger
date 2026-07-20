@@ -75,54 +75,6 @@ void HAL_MspInit(void)
   /* USER CODE END MspInit 1 */
 }
 
-/**
-  * @brief PCD MSP Initialization
-  * This function configures the hardware resources used in this example
-  * @param hpcd: PCD handle pointer
-  * @retval None
-  */
-void HAL_PCD_MspInit(PCD_HandleTypeDef* hpcd)
-{
-  if(hpcd->Instance==USB_OTG_HS)
-  {
-    /* USER CODE BEGIN USB_OTG_HS_PCD_MspInit 0 */
-
-    /* USER CODE END USB_OTG_HS_PCD_MspInit 0 */
-    LL_RCC_SetUSBClockSource(LL_RCC_USB_CLKSOURCE_PLL1Q);
-    LL_PWR_EnableUSBVoltageDetector();
-
-    /* Peripheral clock enable */
-    __HAL_RCC_USB_OTG_HS_CLK_ENABLE();
-    /* USER CODE BEGIN USB_OTG_HS_PCD_MspInit 1 */
-
-    /* USER CODE END USB_OTG_HS_PCD_MspInit 1 */
-
-  }
-
-}
-
-/**
-  * @brief PCD MSP De-Initialization
-  * This function freeze the hardware resources used in this example
-  * @param hpcd: PCD handle pointer
-  * @retval None
-  */
-void HAL_PCD_MspDeInit(PCD_HandleTypeDef* hpcd)
-{
-  if(hpcd->Instance==USB_OTG_HS)
-  {
-    /* USER CODE BEGIN USB_OTG_HS_PCD_MspDeInit 0 */
-
-    /* USER CODE END USB_OTG_HS_PCD_MspDeInit 0 */
-    /* Peripheral clock disable */
-    __HAL_RCC_USB_OTG_HS_CLK_DISABLE();
-    /* USER CODE BEGIN USB_OTG_HS_PCD_MspDeInit 1 */
-
-    /* USER CODE END USB_OTG_HS_PCD_MspDeInit 1 */
-  }
-
-}
-
 /* USER CODE BEGIN 1 */
 
 /* USER CODE END 1 */
