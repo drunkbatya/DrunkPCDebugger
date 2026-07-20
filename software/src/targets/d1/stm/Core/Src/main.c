@@ -19,7 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "tim.h"
-#include "usb_otg.h"
+#include "usb_device.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -92,11 +92,11 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_USB_OTG_HS_PCD_Init();
   MX_TIM2_Init();
   MX_TIM5_Init();
   MX_TIM16_Init();
   MX_TIM17_Init();
+  MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -134,9 +134,15 @@ void SystemClock_Config(void)
   {
 
   }
+  LL_RCC_HSI48_Enable();
+
+   /* Wait till HSI48 is ready */
+  while(LL_RCC_HSI48_IsReady() != 1)
+  {
+
+  }
   LL_RCC_PLL_SetSource(LL_RCC_PLLSOURCE_HSE);
   LL_RCC_PLL1P_Enable();
-  LL_RCC_PLL1Q_Enable();
   LL_RCC_PLL1R_Enable();
   LL_RCC_PLL1_SetVCOInputRange(LL_RCC_PLLINPUTRANGE_8_16);
   LL_RCC_PLL1_SetVCOOutputRange(LL_RCC_PLLVCORANGE_WIDE);
@@ -175,6 +181,12 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
+  LL_CRS_SetSyncDivider(LL_CRS_SYNC_DIV_1);
+  LL_CRS_SetSyncPolarity(LL_CRS_SYNC_POLARITY_RISING);
+  LL_CRS_SetSyncSignalSource(LL_CRS_SYNC_SOURCE_USB);
+  LL_CRS_SetReloadCounter(__LL_CRS_CALC_CALCULATE_RELOADVALUE(48000000,1000));
+  LL_CRS_SetFreqErrorLimit(34);
+  LL_CRS_SetHSI48SmoothTrimming(32);
 }
 
 /* USER CODE BEGIN 4 */

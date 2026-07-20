@@ -34,7 +34,13 @@ C_INCLUDES := \
 	-Isrc/targets/$(HW_TARGET)/stm/Drivers/STM32H7xx_HAL_Driver/Inc \
 	-Isrc/targets/$(HW_TARGET)/stm/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy \
 	-Isrc/targets/$(HW_TARGET)/stm/Drivers/CMSIS/Device/ST/STM32H7xx/Include \
-	-Isrc/targets/$(HW_TARGET)/stm/Drivers/CMSIS/Include
+	-Isrc/targets/$(HW_TARGET)/stm/Drivers/CMSIS/Include \
+	-Isrc/targets/$(HW_TARGET)/stm/Drivers/CMSIS/Include \
+	-Isrc/targets/$(HW_TARGET)/stm/USB_DEVICE/App \
+	-Isrc/targets/$(HW_TARGET)/stm/USB_DEVICE/Target \
+	-Isrc/targets/$(HW_TARGET)/stm/Middlewares/ST/STM32_USB_Device_Library/Core/Inc \
+	-Isrc/targets/$(HW_TARGET)/stm/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc
+
 CFLAGS += $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
 
 ifeq ($(DEBUG),1)
