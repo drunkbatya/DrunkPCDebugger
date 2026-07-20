@@ -13,3 +13,11 @@ endif
 OPENOCD_CFG ?= -f interface/stlink.cfg -f target/stm32h7x.cfg
 
 MAKE_FILES := $(shell find make -type f -name '*.mk')
+
+PROTO_DIR ?= ../protobuf
+PROTO_FILE ?= debugger.proto
+PROTO_OUT_DIR ?= generated
+PROTO_GENERATOR ?= ./src/lib/nanopb/generator/nanopb_generator.py
+PROTO_BASENAME := $(basename $(notdir $(PROTO_FILE)))
+NANOPB_GENERATED_C := $(PROTO_OUT_DIR)/$(PROTO_BASENAME).pb.c
+NANOPB_GENERATED_H := $(PROTO_OUT_DIR)/$(PROTO_BASENAME).pb.h

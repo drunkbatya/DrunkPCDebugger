@@ -1,3 +1,4 @@
 ```bash
-./src/lib/nanopb/generator/nanopb_generator.py -I../protobuf --output-dir=generated debugger.proto 
+python3 -m pip install protobuf grpcio-tools
+make
 ```

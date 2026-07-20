@@ -1,5 +1,8 @@
 all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
 
+.PHONY: protobuf
+protobuf: $(NANOPB_GENERATED_C) $(NANOPB_GENERATED_H)
+
 .PHONY: lint
 lint:
 	find src \
@@ -45,4 +48,4 @@ debug: flash
 .PHONY: clean
 clean:
 	-rm -fR $(BUILD_DIR)
-
+	-rm -fR $(PROTO_OUT_DIR)

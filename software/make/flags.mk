@@ -25,7 +25,9 @@ C_DEFS += -DDEBUG -DFURI_DEBUG -DFURI_HAL_DEBUG
 endif
 
 C_INCLUDES := \
+	-I$(PROTO_OUT_DIR) \
 	-Isrc/lib \
+	-Isrc/lib/nanopb \
 	-Isrc \
 	-Isrc/applications/services \
 	-Isrc/targets/$(HW_TARGET)/stm/Core/Inc \

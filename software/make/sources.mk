@@ -43,6 +43,11 @@ C_SOURCES += $(shell find src \
 	-path "src/targets/$(HW_TARGET)/stm" -prune -o \
 	-type f -name '*.c' -print)
 
+GENERATED_C_SOURCES := $(NANOPB_GENERATED_C)
+GENERATED_HEADERS := $(NANOPB_GENERATED_H)
+
+C_SOURCES += $(GENERATED_C_SOURCES)
+
 ASM_SOURCES = src/targets/$(HW_TARGET)/stm/startup_stm32h723xx.s
 
 C_OBJECTS := $(addprefix $(BUILD_DIR)/,$(C_SOURCES:.c=.o))
