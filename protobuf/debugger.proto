@@ -4,10 +4,14 @@ package debugger;
 
 message AcquireBusRequest {
 }
+message ReleaseBusRequest {
+}
 
 enum ErrType {
     ERROR_TYPE_UNSPECIFIED = 0;
-    ERROR_TYPE_PIZDA = 1;
+    ERROR_TYPE_OK = 1;
+    ERROR_TYPE_TIMEOUT = 2;
+    ERROR_TYPE_FATAL = 3;
 }
 
 message ErrorResponse {
@@ -20,6 +24,7 @@ message RpcRequest {
 
     oneof payload {
         AcquireBusRequest acquire_bus = 2;
+        ReleaseBusRequest release_bus = 3;
     }
 }
 
@@ -28,5 +33,6 @@ message RpcResponse {
 
     oneof payload {
         ErrorResponse acquire_bus = 2;
+        ErrorResponse release_bus = 3;
     }
 }

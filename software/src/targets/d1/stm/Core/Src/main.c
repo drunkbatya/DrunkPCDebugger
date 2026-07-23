@@ -24,6 +24,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <app_main.h>
 
 /* USER CODE END Includes */
 
@@ -98,6 +99,7 @@ int main(void)
   MX_TIM17_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
+  app_main();
 
   /* USER CODE END 2 */
 
