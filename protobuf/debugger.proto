@@ -2,9 +2,17 @@ syntax = "proto3";
 
 package debugger;
 
+// Every marshaled RpcRequest and RpcResponse is prefixed with a 2-byte little-endian payload length.
+
 message AcquireBusRequest {
 }
 message ReleaseBusRequest {
+}
+
+enum Const {
+    CONST_UNSPECIFIED = 0;
+    // Max bytes of flash data per single request and response. Multiple of the AT28C256 64-byte write page.
+    CONST_MAX_CHUNK_SIZE = 1024;
 }
 
 enum ErrType {
@@ -12,11 +20,30 @@ enum ErrType {
     ERROR_TYPE_OK = 1;
     ERROR_TYPE_TIMEOUT = 2;
     ERROR_TYPE_FATAL = 3;
+    ERROR_TYPE_BUS_NOT_ACQUIRED = 4;
+    ERROR_TYPE_OUT_OF_RANGE = 5;
+    ERROR_TYPE_VERIFY_FAILED = 6;
+    ERROR_TYPE_BAD_REQUEST = 7;
 }
 
 message ErrorResponse {
     ErrType err_type = 1;
     optional string msg = 2;
+}
+
+message WriteFlashRequest {
+    uint32 address = 1;
+    bytes data = 2; // at most CONST_MAX_CHUNK_SIZE bytes
+}
+
+message ReadFlashRequest {
+    uint32 address = 1;
+    uint32 size = 2; // at most CONST_MAX_CHUNK_SIZE bytes
+}
+
+message ReadFlashResponse {
+    ErrorResponse status = 1;
+    bytes data = 2;
 }
 
 message RpcRequest {
@@ -25,6 +52,8 @@ message RpcRequest {
     oneof payload {
         AcquireBusRequest acquire_bus = 2;
         ReleaseBusRequest release_bus = 3;
+        WriteFlashRequest write_flash = 4;
+        ReadFlashRequest read_flash = 5;
     }
 }
 
@@ -34,5 +63,7 @@ message RpcResponse {
     oneof payload {
         ErrorResponse acquire_bus = 2;
         ErrorResponse release_bus = 3;
+        ErrorResponse write_flash = 4;
+        ReadFlashResponse read_flash = 5;
     }
 }

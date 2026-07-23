@@ -1,0 +1,3 @@
+debugger.WriteFlashRequest.data  max_size:1024
+debugger.ReadFlashResponse.data  max_size:1024
+debugger.ErrorResponse.msg       max_size:64

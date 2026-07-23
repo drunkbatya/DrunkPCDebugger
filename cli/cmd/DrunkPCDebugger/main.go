@@ -1,54 +1,88 @@
 package main
 
 import (
-	"os"
+	"DrunkPCDebugger/internal/args"
+	"DrunkPCDebugger/internal/device"
+	"DrunkPCDebugger/internal/logging"
+	"DrunkPCDebugger/internal/transport"
 	"fmt"
 	"log"
-	"google.golang.org/protobuf/proto"
-	pb "DrunkPCDebugger/generated"
-	"DrunkPCDebugger/internal/transport"
-	"DrunkPCDebugger/internal/args"
-	"DrunkPCDebugger/internal/logging"
+	"os"
 )
 
 func main() {
-	args := args.Parse()
+	os.Exit(run())
+}
 
-	loggerCore, err := logging.NewAppLogger(args.LogLevel)
+func run() int {
+	parsedArgs := args.Parse()
+
+	loggerCore, err := logging.NewAppLogger(parsedArgs.LogLevel)
 	if err != nil {
-		log.Fatalf("failed to init logger: %v", err)
+		log.Printf("failed to init logger: %v", err)
+		return 1
 	}
 	defer loggerCore.Sync()
 	logger := loggerCore.Sugar()
 
-	_, transportErr := transport.NewSerial(args.Port, 115200, logger)
+	serial, transportErr := transport.NewSerial(parsedArgs.Port, parsedArgs.Baudrate, logger)
+	if transportErr == nil {
+		defer serial.Close()
+	}
 
-	if args.OnlyShowVersion {
-		cliVersion := "1.0.1"
-		fmt.Printf("Tool:\n\t%s\n", cliVersion)
-
-		if transportErr == nil {
-			deviceVersion := "2.0.0"
-			fmt.Printf("Device:\n\t%s\n", deviceVersion)
-		}
-
-		os.Exit(1)
+	if parsedArgs.OnlyShowVersion {
+		printVersion(transportErr == nil)
+		return 0
 	}
 
 	if transportErr != nil {
-		logger.Fatalf("%v", transportErr)
+		logger.Errorf("%v", transportErr)
+		return 1
 	}
 
-	request := &pb.RpcRequest{
-		RequestId: 1,
-		Payload: &pb.RpcRequest_AcquireBus{
-			AcquireBus: &pb.AcquireBusRequest{},
-		},
+	if err := dispatch(device.New(serial, logger), parsedArgs); err != nil {
+		logger.Errorf("%v", err)
+		return 1
 	}
+	return 0
+}
 
-	requestData, err := proto.Marshal(request)
+func printVersion(deviceConnected bool) {
+	cliVersion := "1.0.1"
+	fmt.Printf("Tool:\n\t%s\n", cliVersion)
+
+	if deviceConnected {
+		deviceVersion := "2.0.0"
+		fmt.Printf("Device:\n\t%s\n", deviceVersion)
+	}
+}
+
+func dispatch(dev *device.Device, parsedArgs args.Args) error {
+	switch {
+	case parsedArgs.AcquireBus != nil:
+		return dev.AcquireBus()
+	case parsedArgs.ReleaseBus != nil:
+		return dev.ReleaseBus()
+	case parsedArgs.WriteFlash != nil:
+		return writeFlashFromFile(dev, parsedArgs.WriteFlash)
+	case parsedArgs.ReadFlash != nil:
+		return readFlashToFile(dev, parsedArgs.ReadFlash)
+	}
+	return nil
+}
+
+func writeFlashFromFile(dev *device.Device, cmd *args.WriteFlashCmd) error {
+	data, err := os.ReadFile(cmd.SourceFile)
 	if err != nil {
-		fmt.Printf("%v\n", err)
+		return err
 	}
-	fmt.Printf("%v\n", requestData)
+	return dev.WriteFlash(data, cmd.Address)
+}
+
+func readFlashToFile(dev *device.Device, cmd *args.ReadFlashCmd) error {
+	data, err := dev.ReadFlash(cmd.Address, cmd.Size)
+	if err != nil {
+		return err
+	}
+	return os.WriteFile(cmd.TargetFile, data, 0644)
 }
