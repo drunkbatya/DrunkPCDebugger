@@ -80,6 +80,8 @@ void Error_Handler(void);
 #define D5_GPIO_Port GPIOE
 #define D6_Pin LL_GPIO_PIN_6
 #define D6_GPIO_Port GPIOE
+#define CTRL_BUS_DIR_Pin LL_GPIO_PIN_15
+#define CTRL_BUS_DIR_GPIO_Port GPIOC
 #define LED_Pin LL_GPIO_PIN_0
 #define LED_GPIO_Port GPIOA
 #define BUS_PWR_Pin LL_GPIO_PIN_1
@@ -96,10 +98,12 @@ void Error_Handler(void);
 #define _M1_GPIO_Port GPIOB
 #define _CPU_CLK_Pin LL_GPIO_PIN_11
 #define _CPU_CLK_GPIO_Port GPIOB
-#define BUS_DIR_Pin LL_GPIO_PIN_12
-#define BUS_DIR_GPIO_Port GPIOB
+#define ADDR_BUS_DIR_Pin LL_GPIO_PIN_12
+#define ADDR_BUS_DIR_GPIO_Port GPIOB
 #define BUS_OE_Pin LL_GPIO_PIN_13
 #define BUS_OE_GPIO_Port GPIOB
+#define DATA_BUS_DIR_Pin LL_GPIO_PIN_14
+#define DATA_BUS_DIR_GPIO_Port GPIOB
 #define A8_Pin LL_GPIO_PIN_8
 #define A8_GPIO_Port GPIOD
 #define A9_Pin LL_GPIO_PIN_9
