@@ -6,8 +6,7 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/proto"
 
-	pb "DrunkPCDebugger/generated"
-	"DrunkPCDebugger/internal/transport"
+	pb "drunkpc-debugger/generated"
 )
 
 const MaxChunkSize = uint32(pb.Const_CONST_MAX_CHUNK_SIZE)
@@ -34,13 +33,18 @@ func statusToError(status *pb.ErrorResponse) error {
 	return &DeviceError{Type: status.ErrType, Msg: status.GetMsg()}
 }
 
+type Transport interface {
+	WriteFrame(payload []byte) error
+	ReadFrame() ([]byte, error)
+}
+
 type Device struct {
-	transport     *transport.SerialTransport
+	transport     Transport
 	logger        *zap.SugaredLogger
 	nextRequestID uint32
 }
 
-func New(t *transport.SerialTransport, logger *zap.SugaredLogger) *Device {
+func New(t Transport, logger *zap.SugaredLogger) *Device {
 	return &Device{
 		transport:     t,
 		logger:        logger,

@@ -4,36 +4,27 @@ import (
 	"bytes"
 	"crypto/rand"
 	"errors"
-	"runtime"
+	"net"
 	"testing"
 
 	"go.uber.org/zap"
 
-	pb "DrunkPCDebugger/generated"
-	"DrunkPCDebugger/internal/device"
-	"DrunkPCDebugger/internal/emulator"
-	"DrunkPCDebugger/internal/transport"
+	pb "drunkpc-debugger/generated"
+	"drunkpc-debugger/internal/device"
+	"drunkpc-debugger/internal/emulator"
+	"drunkpc-debugger/internal/transport"
 )
 
 func startDevice(t *testing.T) *device.Device {
 	t.Helper()
-	if runtime.GOOS != "linux" {
-		t.Skip("pty emulator requires linux")
-	}
-	emu, err := emulator.Start()
-	if err != nil {
-		t.Fatalf("failed to start emulator: %v", err)
-	}
-	t.Cleanup(emu.Close)
+	clientConn, deviceConn := net.Pipe()
+	t.Cleanup(func() {
+		clientConn.Close()
+		deviceConn.Close()
+	})
 
-	logger := zap.NewNop().Sugar()
-	serial, err := transport.NewSerial(emu.PortPath, 115200, logger)
-	if err != nil {
-		t.Fatalf("failed to open emulator port: %v", err)
-	}
-	t.Cleanup(serial.Close)
-
-	return device.New(serial, logger)
+	emulator.Start(deviceConn)
+	return device.New(transport.NewFramer(clientConn), zap.NewNop().Sugar())
 }
 
 func acquireBus(t *testing.T, dev *device.Device) {

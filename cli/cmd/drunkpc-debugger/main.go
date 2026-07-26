@@ -1,10 +1,10 @@
 package main
 
 import (
-	"DrunkPCDebugger/internal/args"
-	"DrunkPCDebugger/internal/device"
-	"DrunkPCDebugger/internal/logging"
-	"DrunkPCDebugger/internal/transport"
+	"drunkpc-debugger/internal/args"
+	"drunkpc-debugger/internal/device"
+	"drunkpc-debugger/internal/logging"
+	"drunkpc-debugger/internal/transport"
 	"fmt"
 	"log"
 	"os"

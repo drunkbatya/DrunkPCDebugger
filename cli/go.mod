@@ -1,4 +1,4 @@
-module DrunkPCDebugger
+module drunkpc-debugger
 
 go 1.26.3
 
