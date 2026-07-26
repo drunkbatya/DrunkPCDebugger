@@ -5,6 +5,7 @@ import (
 	"drunkpc-debugger/internal/device"
 	"drunkpc-debugger/internal/logging"
 	"drunkpc-debugger/internal/transport"
+	"drunkpc-debugger/internal/version"
 	"fmt"
 	"log"
 	"os"
@@ -48,7 +49,7 @@ func run() int {
 }
 
 func printVersion(deviceConnected bool) {
-	cliVersion := "1.0.1"
+	cliVersion := version.GetPrintableString()
 	fmt.Printf("Tool:\n\t%s\n", cliVersion)
 
 	if deviceConnected {
