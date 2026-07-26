@@ -8,6 +8,7 @@ lint:
 	find src \
 		-type d -name '.*' -prune -o \
 		-path 'src/lib/nanopb' -prune -o \
+		-path 'src/targets/d1/stm' -prune -o \
 		-type f -name '*.c' -print \
 		| xargs clang-format --Werror --style=file -i --dry-run
 
@@ -16,6 +17,7 @@ format:
 	find src \
 		-type d -name '.*' -prune -o \
 		-path 'src/lib/nanopb' -prune -o \
+		-path 'src/targets/d1/stm' -prune -o \
 		-type f -name '*.c' -print \
 		| xargs clang-format --Werror --style=file -i
 

@@ -41,7 +41,7 @@ C_INCLUDES := \
 	-Isrc/targets/$(HW_TARGET)/stm/Middlewares/ST/STM32_USB_Device_Library/Core/Inc \
 	-Isrc/targets/$(HW_TARGET)/stm/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc
 
-CFLAGS += $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+CFLAGS += $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -Werror -fdata-sections -ffunction-sections
 
 ifeq ($(DEBUG),1)
 CFLAGS += -g -gdwarf-2
