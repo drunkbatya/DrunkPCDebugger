@@ -32,7 +32,6 @@ C_SOURCES := \
 	src/targets/$(HW_TARGET)/stm/Core/Src/syscalls.c \
 	src/targets/$(HW_TARGET)/stm/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_tim.c \
 	src/targets/$(HW_TARGET)/stm/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_dma.c \
-	src/targets/$(HW_TARGET)/stm/Core/Src/gpio.c \
 	src/targets/$(HW_TARGET)/stm/Core/Src/tim.c \
 	src/targets/$(HW_TARGET)/stm/USB_DEVICE/App/usb_device.c \
 	src/targets/$(HW_TARGET)/stm/USB_DEVICE/App/usbd_desc.c \
@@ -43,6 +42,10 @@ C_SOURCES := \
 	src/targets/$(HW_TARGET)/stm/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c \
 	src/targets/$(HW_TARGET)/stm/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
 
+C_SOURCES += \
+	src/lib/nanopb/pb_common.c \
+	src/lib/nanopb/pb_decode.c \
+	src/lib/nanopb/pb_encode.c
 
 C_SOURCES += $(shell find src \
 	-type d -name '.*' -prune -o \
