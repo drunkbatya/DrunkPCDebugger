@@ -59,8 +59,10 @@ void MX_GPIO_Init(void)
   LL_GPIO_ResetOutputPin(BUS_PWR_GPIO_Port, BUS_PWR_Pin);
 
   /**/
-  LL_GPIO_ResetOutputPin(GPIOB, ADDR_BUS_DIR_Pin|BUS_OE_Pin|DATA_BUS_DIR_Pin|_BUSREQ_Pin
-                          |_CPURST_Pin);
+  LL_GPIO_ResetOutputPin(GPIOB, ADDR_BUS_DIR_Pin|DATA_BUS_DIR_Pin);
+
+  /**/
+  LL_GPIO_SetOutputPin(GPIOB, BUS_OE_Pin|_BUSREQ_Pin|_CPURST_Pin);
 
   /**/
   GPIO_InitStruct.Pin = D2_Pin|D3_Pin|D4_Pin|D5_Pin

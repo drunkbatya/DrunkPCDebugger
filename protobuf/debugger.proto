@@ -4,9 +4,12 @@ package debugger;
 
 // Every marshaled RpcRequest and RpcResponse is prefixed with a 2-byte little-endian payload length.
 
-message AcquireBusRequest {
+message BusControlRequest {
+  bool acquire = 1;
 }
-message ReleaseBusRequest {
+
+message PowerOnBusRequest {
+  bool enable = 1;
 }
 
 enum Const {
@@ -50,8 +53,8 @@ message RpcRequest {
     uint32 request_id = 1;
 
     oneof payload {
-        AcquireBusRequest acquire_bus = 2;
-        ReleaseBusRequest release_bus = 3;
+        BusControlRequest bus_control_request = 2;
+        PowerOnBusRequest power_on_bus_request = 3;
         WriteFlashRequest write_flash = 4;
         ReadFlashRequest read_flash = 5;
     }
@@ -61,8 +64,8 @@ message RpcResponse {
     uint32 request_id = 1;
 
     oneof payload {
-        ErrorResponse acquire_bus = 2;
-        ErrorResponse release_bus = 3;
+        ErrorResponse bus_control_request = 2;
+        ErrorResponse power_on_bus_request = 3;
         ErrorResponse write_flash = 4;
         ReadFlashResponse read_flash = 5;
         // Returned when the request could not be decoded or its payload is unknown.
