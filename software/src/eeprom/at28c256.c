@@ -7,12 +7,12 @@
 #define AT28C256_BYTE_LOAD_WINDOW_US (200U)
 #define AT28C256_WRITE_TIMEOUT_MS    (20U)
 
-static size_t at28c256_page_space(uint16_t address) {
+static size_t at28c256_get_page_space(uint16_t address) {
     return AT28C256_PAGE_SIZE - (address % AT28C256_PAGE_SIZE);
 }
 
-static size_t at28c256_chunk_size(uint16_t address, size_t remaining) {
-    const size_t space = at28c256_page_space(address);
+static size_t at28c256_get_chunk_size(uint16_t address, size_t remaining) {
+    const size_t space = at28c256_get_page_space(address);
     return space < remaining ? space : remaining;
 }
 
@@ -45,7 +45,7 @@ bool at28c256_write(uint16_t address, const uint8_t* data, size_t size) {
     size_t written = 0;
     while(written < size) {
         const uint16_t page_address = (uint16_t)(address + written);
-        const size_t chunk = at28c256_chunk_size(page_address, size - written);
+        const size_t chunk = at28c256_get_chunk_size(page_address, size - written);
 
         if(!at28c256_write_page(page_address, data + written, chunk)) return false;
 

@@ -65,5 +65,7 @@ message RpcResponse {
         ErrorResponse release_bus = 3;
         ErrorResponse write_flash = 4;
         ReadFlashResponse read_flash = 5;
+        // Returned when the request could not be decoded or its payload is unknown.
+        ErrorResponse generic = 6;
     }
 }
