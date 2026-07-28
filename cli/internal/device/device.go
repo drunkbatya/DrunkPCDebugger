@@ -72,6 +72,9 @@ func (d *Device) call(request *pb.RpcRequest) (*pb.RpcResponse, error) {
 	if err := proto.Unmarshal(responseData, response); err != nil {
 		return nil, fmt.Errorf("failed to unmarshal response: %w", err)
 	}
+	if err := genericError(response); err != nil {
+		return nil, err
+	}
 	if response.RequestId != request.RequestId {
 		return nil, fmt.Errorf("response id mismatch: sent %d, got %d",
 			request.RequestId, response.RequestId)
@@ -79,24 +82,55 @@ func (d *Device) call(request *pb.RpcRequest) (*pb.RpcResponse, error) {
 	return response, nil
 }
 
-func (d *Device) AcquireBus() error {
-	response, err := d.call(&pb.RpcRequest{
-		Payload: &pb.RpcRequest_AcquireBus{AcquireBus: &pb.AcquireBusRequest{}},
-	})
-	if err != nil {
+func genericError(response *pb.RpcResponse) error {
+	generic := response.GetGeneric()
+	if generic == nil {
+		return nil
+	}
+	if err := statusToError(generic); err != nil {
 		return err
 	}
-	return statusToError(response.GetAcquireBus())
+	return fmt.Errorf("device returned generic response with OK status")
+}
+
+func (d *Device) AcquireBus() error {
+	return d.busControl(true)
 }
 
 func (d *Device) ReleaseBus() error {
+	return d.busControl(false)
+}
+
+func (d *Device) busControl(acquire bool) error {
 	response, err := d.call(&pb.RpcRequest{
-		Payload: &pb.RpcRequest_ReleaseBus{ReleaseBus: &pb.ReleaseBusRequest{}},
+		Payload: &pb.RpcRequest_BusControlRequest{
+			BusControlRequest: &pb.BusControlRequest{Acquire: acquire},
+		},
 	})
 	if err != nil {
 		return err
 	}
-	return statusToError(response.GetReleaseBus())
+	return statusToError(response.GetBusControlRequest())
+}
+
+func (d *Device) PowerOn() error {
+	return d.setPower(true)
+}
+
+func (d *Device) PowerOff() error {
+	return d.setPower(false)
+}
+
+func (d *Device) setPower(enable bool) error {
+	response, err := d.call(&pb.RpcRequest{
+		Payload: &pb.RpcRequest_PowerOnBusRequest{
+			PowerOnBusRequest: &pb.PowerOnBusRequest{Enable: enable},
+		},
+	})
+	if err != nil {
+		return err
+	}
+	return statusToError(response.GetPowerOnBusRequest())
 }
 
 func (d *Device) WriteFlash(data []byte, address uint32) error {

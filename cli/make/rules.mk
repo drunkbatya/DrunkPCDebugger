@@ -1,6 +1,3 @@
-$(BUILD_DIR):
-	@mkdir -p $@
-
 $(PROTO_OUT_DIR):
 	@mkdir -p $@
 
@@ -11,7 +8,8 @@ $(PROTO_GENERATED): $(PROTO_DIR)/$(PROTO_FILE) $(MAKE_FILES) $(PROTO_DIR)/$(PROT
 		--go_opt=M$(PROTO_FILE)=$(TARGET)/$(PROTO_OUT_DIR) \
 		"$(PROTO_FILE)"
 
-$(BUILD_DIR)/$(TARGET): $(MOD_FILES) $(GO_FILES) $(PROTO_GENERATED) $(MAKE_FILES) | $(BUILD_DIR)
+$(BUILD_DIR)/$(TARGET): $(MOD_FILES) $(GO_FILES) $(PROTO_GENERATED) $(MAKE_FILES)
+	@mkdir -p $(@D)
 	@echo "\tGO\t$(TARGET)"
 	@$(GO) build \
 		-ldflags "$(LDFLAGS)" \

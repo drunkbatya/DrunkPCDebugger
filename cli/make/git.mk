@@ -5,4 +5,4 @@ GIT_ORIGIN := $(shell git config --get remote.origin.url 2>/dev/null || echo loc
 GIT_DIRTY := $(shell git diff --quiet --ignore-submodules HEAD 2>/dev/null; if [ $$? -eq 0 ]; then echo false; else echo true; fi)
 BUILD_DATE := $(shell date '+%Y-%m-%d' 2>/dev/null || echo unknown)
 BUILD_TIME := $(shell date '+%H:%M:%S' 2>/dev/null || echo unknown)
-BUILD_VERSION := $(shell git describe --tags --always --dirty 2>/dev/null || echo unknown)
+BUILD_VERSION := $(shell git describe --tags --always 2>/dev/null || echo unknown)

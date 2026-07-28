@@ -64,6 +64,10 @@ func dispatch(dev *device.Device, parsedArgs args.Args) error {
 		return dev.AcquireBus()
 	case parsedArgs.ReleaseBus != nil:
 		return dev.ReleaseBus()
+	case parsedArgs.PowerOn != nil:
+		return dev.PowerOn()
+	case parsedArgs.PowerOff != nil:
+		return dev.PowerOff()
 	case parsedArgs.WriteFlash != nil:
 		return writeFlashFromFile(dev, parsedArgs.WriteFlash)
 	case parsedArgs.ReadFlash != nil:

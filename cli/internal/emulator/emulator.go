@@ -15,6 +15,7 @@ type Emulator struct {
 	framer      *transport.Framer
 	flash       []byte
 	busAcquired bool
+	powered     bool
 }
 
 func Start(conn io.ReadWriter) *Emulator {
@@ -61,25 +62,27 @@ func (e *Emulator) writeResponse(response *pb.RpcResponse) error {
 func (e *Emulator) handle(request *pb.RpcRequest) *pb.RpcResponse {
 	response := &pb.RpcResponse{RequestId: request.RequestId}
 	switch payload := request.Payload.(type) {
-	case *pb.RpcRequest_AcquireBus:
-		response.Payload = &pb.RpcResponse_AcquireBus{AcquireBus: e.acquireBus()}
-	case *pb.RpcRequest_ReleaseBus:
-		response.Payload = &pb.RpcResponse_ReleaseBus{ReleaseBus: e.releaseBus()}
+	case *pb.RpcRequest_BusControlRequest:
+		response.Payload = &pb.RpcResponse_BusControlRequest{BusControlRequest: e.busControl(payload.BusControlRequest)}
+	case *pb.RpcRequest_PowerOnBusRequest:
+		response.Payload = &pb.RpcResponse_PowerOnBusRequest{PowerOnBusRequest: e.setPower(payload.PowerOnBusRequest)}
 	case *pb.RpcRequest_WriteFlash:
 		response.Payload = &pb.RpcResponse_WriteFlash{WriteFlash: e.writeFlash(payload.WriteFlash)}
 	case *pb.RpcRequest_ReadFlash:
 		response.Payload = &pb.RpcResponse_ReadFlash{ReadFlash: e.readFlash(payload.ReadFlash)}
+	default:
+		response.Payload = &pb.RpcResponse_Generic{Generic: errStatus(pb.ErrType_ERROR_TYPE_BAD_REQUEST)}
 	}
 	return response
 }
 
-func (e *Emulator) acquireBus() *pb.ErrorResponse {
-	e.busAcquired = true
+func (e *Emulator) busControl(request *pb.BusControlRequest) *pb.ErrorResponse {
+	e.busAcquired = request.Acquire
 	return okStatus()
 }
 
-func (e *Emulator) releaseBus() *pb.ErrorResponse {
-	e.busAcquired = false
+func (e *Emulator) setPower(request *pb.PowerOnBusRequest) *pb.ErrorResponse {
+	e.powered = request.Enable
 	return okStatus()
 }
 

@@ -8,12 +8,27 @@ import (
 	"testing"
 
 	"go.uber.org/zap"
+	"google.golang.org/protobuf/proto"
 
 	pb "drunkpc-debugger/generated"
 	"drunkpc-debugger/internal/device"
 	"drunkpc-debugger/internal/emulator"
 	"drunkpc-debugger/internal/transport"
 )
+
+type genericTransport struct{}
+
+func (genericTransport) WriteFrame([]byte) error { return nil }
+
+func (genericTransport) ReadFrame() ([]byte, error) {
+	response := &pb.RpcResponse{
+		RequestId: 0,
+		Payload: &pb.RpcResponse_Generic{
+			Generic: &pb.ErrorResponse{ErrType: pb.ErrType_ERROR_TYPE_BAD_REQUEST},
+		},
+	}
+	return proto.Marshal(response)
+}
 
 func startDevice(t *testing.T) *device.Device {
 	t.Helper()
@@ -60,6 +75,22 @@ func TestAcquireAndReleaseBus(t *testing.T) {
 	if err := dev.ReleaseBus(); err != nil {
 		t.Fatalf("failed to release bus: %v", err)
 	}
+}
+
+func TestPowerOnAndOff(t *testing.T) {
+	dev := startDevice(t)
+	if err := dev.PowerOn(); err != nil {
+		t.Fatalf("failed to power on: %v", err)
+	}
+	if err := dev.PowerOff(); err != nil {
+		t.Fatalf("failed to power off: %v", err)
+	}
+}
+
+func TestGenericErrorSurfaces(t *testing.T) {
+	dev := device.New(genericTransport{}, zap.NewNop().Sugar())
+	err := dev.AcquireBus()
+	requireDeviceError(t, err, pb.ErrType_ERROR_TYPE_BAD_REQUEST)
 }
 
 func TestWriteAndReadFlash(t *testing.T) {
