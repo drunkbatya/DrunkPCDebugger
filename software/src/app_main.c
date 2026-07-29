@@ -1,23 +1,15 @@
-#include "main.h"
+#include <app_main.h>
+
+#include <bus/bus.h>
+#include <kal/kal.h>
+#include <rpc/rpc.h>
 
 void app_main(void) {
-    while (1) {
-        // message = await_recieve_message();
-        // switch(message->type) {
-        //      case (AcquireBusRequest):
-        //          res = ERROR_TYPE_OK;
-        //          if bus_acquire() == false {
-        //              res = ERROR_TYPE_TIMEOUT;
-        //          }
-        //          send_message(res)
-        //          ;;
-        //      case (ReleaseBusRequest):
-        //          res = ERROR_TYPE_OK;
-        //          if bus_release() == false {
-        //              res = ERROR_TYPE_TIMEOUT;
-        //          }
-        //          send_message(res)
-        //          ;;
-        // }
+    kal_init();
+    bus_init();
+    rpc_init();
+
+    while(1) {
+        rpc_process();
     }
 }

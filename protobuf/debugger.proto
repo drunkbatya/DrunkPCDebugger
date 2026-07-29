@@ -2,8 +2,6 @@ syntax = "proto3";
 
 package debugger;
 
-// Every marshaled RpcRequest and RpcResponse is prefixed with a 2-byte little-endian payload length.
-
 message BusControlRequest {
   bool acquire = 1;
 }
@@ -25,8 +23,8 @@ enum ErrType {
     ERROR_TYPE_FATAL = 3;
     ERROR_TYPE_BUS_NOT_ACQUIRED = 4;
     ERROR_TYPE_OUT_OF_RANGE = 5;
-    ERROR_TYPE_VERIFY_FAILED = 6;
-    ERROR_TYPE_BAD_REQUEST = 7;
+    ERROR_TYPE_BAD_REQUEST = 6;
+    ERROR_TYPE_RX_OVERRUN = 7;
 }
 
 message ErrorResponse {
@@ -68,7 +66,6 @@ message RpcResponse {
         ErrorResponse power_on_bus_request = 3;
         ErrorResponse write_flash = 4;
         ReadFlashResponse read_flash = 5;
-        // Returned when the request could not be decoded or its payload is unknown.
         ErrorResponse generic = 6;
     }
 }

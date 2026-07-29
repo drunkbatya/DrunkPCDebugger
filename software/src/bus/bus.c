@@ -14,8 +14,6 @@
 #define BUS_DIRECTION_SETUP_NS (50U)
 #define BUS_RECOVERY_NS        (100U)
 
-static bool bus_acquired = false;
-
 static void bus_transceivers_disable(void) {
     kal_gpio_write(&gpio_bus_oe_pin, !BUS_OE_ENABLED_LEVEL);
 }
@@ -26,37 +24,37 @@ static void bus_transceivers_enable(void) {
 
 static void bus_addr_set_output(void) {
     kal_gpio_write(&gpio_addr_bus_dir_pin, BUS_DIR_TO_CPU_LEVEL);
-    kal_gpio_set_port_output(BUS_ADDR_PORT);
+    kal_gpio_set_port_mode_output(BUS_ADDR_PORT);
 }
 
 static void bus_addr_set_input(void) {
-    kal_gpio_set_port_input(BUS_ADDR_PORT);
+    kal_gpio_set_port_mode_input(BUS_ADDR_PORT);
     kal_gpio_write(&gpio_addr_bus_dir_pin, BUS_DIR_TO_MCU_LEVEL);
 }
 
 static void bus_data_set_output(void) {
     kal_gpio_write(&gpio_data_bus_dir_pin, BUS_DIR_TO_CPU_LEVEL);
-    kal_gpio_set_port_output(BUS_DATA_PORT);
+    kal_gpio_set_port_mode_output(BUS_DATA_PORT);
 }
 
 static void bus_data_set_input(void) {
-    kal_gpio_set_port_input(BUS_DATA_PORT);
+    kal_gpio_set_port_mode_input(BUS_DATA_PORT);
     kal_gpio_write(&gpio_data_bus_dir_pin, BUS_DIR_TO_MCU_LEVEL);
 }
 
-static void bus_control_set_inactive(void) {
-    kal_gpio_write_mask(BUS_CONTROL_PORT, BUS_CONTROL_MASK, BUS_CONTROL_MASK);
+static void bus_control_deassert_all(void) {
+    kal_gpio_set_pins_high(BUS_CONTROL_PORT, BUS_CONTROL_MASK);
 }
 
 static void bus_control_set_output(void) {
     kal_gpio_write(&gpio_ctrl_bus_dir_pin, BUS_DIR_TO_CPU_LEVEL);
-    bus_control_set_inactive();
-    kal_gpio_init_mask(
+    bus_control_deassert_all();
+    kal_gpio_init_pins(
         BUS_CONTROL_PORT, BUS_CONTROL_MASK, GpioModeOutputPushPull, GpioPullNo, GpioSpeedVeryHigh);
 }
 
 static void bus_control_set_input(void) {
-    kal_gpio_init_mask(
+    kal_gpio_init_pins(
         BUS_CONTROL_PORT, BUS_CONTROL_MASK, GpioModeInput, GpioPullNo, GpioSpeedVeryHigh);
     kal_gpio_write(&gpio_ctrl_bus_dir_pin, BUS_DIR_TO_MCU_LEVEL);
 }
@@ -87,18 +85,15 @@ static bool bus_wait_busack(bool level, uint32_t timeout_ms) {
 }
 
 void bus_init(void) {
-    bus_acquired = false;
     bus_give_control();
     kal_gpio_write(&gpio_busreq_pin, !BUSREQ_ACTIVE_LEVEL);
 }
 
 bool bus_is_acquired(void) {
-    return bus_acquired;
+    return kal_gpio_read(&gpio_busack_pin) == BUSACK_ACTIVE_LEVEL;
 }
 
 bool bus_acquire(void) {
-    if(bus_acquired) return true;
-
     kal_gpio_write(&gpio_busreq_pin, BUSREQ_ACTIVE_LEVEL);
 
     if(!bus_wait_busack(BUSACK_ACTIVE_LEVEL, BUS_ACQUIRE_TIMEOUT_MS)) {
@@ -107,13 +102,11 @@ bool bus_acquire(void) {
     }
 
     bus_take_control();
-    bus_acquired = true;
     return true;
 }
 
 bool bus_release(void) {
     bus_give_control();
-    bus_acquired = false;
     kal_gpio_write(&gpio_busreq_pin, !BUSREQ_ACTIVE_LEVEL);
 
     return bus_wait_busack(!BUSACK_ACTIVE_LEVEL, BUS_RELEASE_TIMEOUT_MS);
@@ -121,8 +114,8 @@ bool bus_release(void) {
 
 void bus_write_memory(uint16_t address, uint8_t data) {
     bus_data_set_output();
-    kal_gpio_write_mask(BUS_ADDR_PORT, BUS_ADDR_MASK, address);
-    kal_gpio_write_mask(BUS_DATA_PORT, BUS_DATA_MASK, data);
+    kal_gpio_write_port_value(BUS_ADDR_PORT, BUS_ADDR_MASK, address);
+    kal_gpio_write_port_value(BUS_DATA_PORT, BUS_DATA_MASK, data);
     kal_delay_ns(BUS_ADDRESS_SETUP_NS);
 
     kal_gpio_write(&gpio_memrq_pin, MEMRQ_ACTIVE_LEVEL);
@@ -140,14 +133,14 @@ uint8_t bus_read_memory(uint16_t address) {
     bus_data_set_input();
     kal_delay_ns(BUS_DIRECTION_SETUP_NS);
 
-    kal_gpio_write_mask(BUS_ADDR_PORT, BUS_ADDR_MASK, address);
+    kal_gpio_write_port_value(BUS_ADDR_PORT, BUS_ADDR_MASK, address);
     kal_delay_ns(BUS_ADDRESS_SETUP_NS);
 
     kal_gpio_write(&gpio_memrq_pin, MEMRQ_ACTIVE_LEVEL);
     kal_gpio_write(&gpio_rd_pin, RD_ACTIVE_LEVEL);
     kal_delay_ns(BUS_READ_ACCESS_NS);
 
-    const uint8_t data = (uint8_t)kal_gpio_read_mask(BUS_DATA_PORT, BUS_DATA_MASK);
+    const uint8_t data = (uint8_t)kal_gpio_read_port_value(BUS_DATA_PORT, BUS_DATA_MASK);
 
     kal_gpio_write(&gpio_rd_pin, !RD_ACTIVE_LEVEL);
     kal_gpio_write(&gpio_memrq_pin, !MEMRQ_ACTIVE_LEVEL);
