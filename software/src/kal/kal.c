@@ -32,16 +32,16 @@ static void kal_init_transceivers_disabled(void) {
 }
 
 static void kal_init_address_bus_as_input(void) {
-    kal_gpio_init_port(BUS_ADDR_PORT, GpioModeInput, GpioPullNo, GpioSpeedVeryHigh);
+    kal_gpio_init_port(BUS_ADDR_PORT, GpioModeInput, GpioPullUp, GpioSpeedVeryHigh);
 }
 
 static void kal_init_data_bus_as_input(void) {
-    kal_gpio_init_port(BUS_DATA_PORT, GpioModeInput, GpioPullNo, GpioSpeedVeryHigh);
+    kal_gpio_init_port(BUS_DATA_PORT, GpioModeInput, GpioPullUp, GpioSpeedVeryHigh);
 }
 
 static void kal_init_control_bus_as_input(void) {
     kal_gpio_init_pins(
-        BUS_CONTROL_PORT, BUS_CONTROL_MASK, GpioModeInput, GpioPullNo, GpioSpeedVeryHigh);
+        BUS_CONTROL_PORT, BUS_CONTROL_MASK, GpioModeInput, GpioPullUp, GpioSpeedVeryHigh);
 }
 
 static void kal_init_cpu_status_as_input(void) {
@@ -81,6 +81,5 @@ void kal_init(void) {
     kal_delay_init();
     kal_interrupt_init();
     kal_init_safe_state();
-    kal_gpio_write(&gpio_bus_oe_pin, BUS_OE_ENABLED_LEVEL);
     kal_usb_uart_init();
 }

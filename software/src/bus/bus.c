@@ -55,7 +55,7 @@ static void bus_control_set_output(void) {
 
 static void bus_control_set_input(void) {
     kal_gpio_init_pins(
-        BUS_CONTROL_PORT, BUS_CONTROL_MASK, GpioModeInput, GpioPullNo, GpioSpeedVeryHigh);
+        BUS_CONTROL_PORT, BUS_CONTROL_MASK, GpioModeInput, GpioPullUp, GpioSpeedVeryHigh);
     kal_gpio_write(&gpio_ctrl_bus_dir_pin, BUS_DIR_TO_MCU_LEVEL);
 }
 
@@ -72,7 +72,6 @@ static void bus_give_control(void) {
     bus_addr_set_input();
     bus_data_set_input();
     bus_control_set_input();
-    bus_transceivers_enable();
 }
 
 static bool bus_wait_busack(bool level, uint32_t timeout_ms) {
