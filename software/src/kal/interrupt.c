@@ -1,5 +1,7 @@
 #include <kal/interrupt.h>
 
+#include <kal/kal.h>
+
 #include <main.h>
 
 typedef struct {
@@ -54,8 +56,8 @@ void kal_interrupt_set_isr_ex(
     KalInterruptPriority priority,
     KalInterruptIsr isr,
     void* context) {
-    if(id >= KalInterruptIdMax) Error_Handler();
-    if(isr != NULL && kal_interrupt[id].isr != NULL) Error_Handler();
+    if(id >= KalInterruptIdMax) kal_crash();
+    if(isr != NULL && kal_interrupt[id].isr != NULL) kal_crash();
 
     const IRQn_Type irqn = kal_interrupt_irqn[id];
 
@@ -86,7 +88,7 @@ void kal_interrupt_critical_enter(void) {
 }
 
 void kal_interrupt_critical_exit(void) {
-    if(kal_interrupt_critical_nesting == 0) Error_Handler();
+    if(kal_interrupt_critical_nesting == 0) kal_crash();
 
     kal_interrupt_critical_nesting--;
     if(kal_interrupt_critical_nesting == 0 && kal_interrupt_critical_primask == 0) {

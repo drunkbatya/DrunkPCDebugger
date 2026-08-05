@@ -24,6 +24,7 @@
 #include "usbd_conf.h"
 
 /* USER CODE BEGIN INCLUDE */
+#include <kal/usb_uart.h>
 
 /* USER CODE END INCLUDE */
 
@@ -310,6 +311,7 @@ uint8_t * USBD_HS_SerialStrDescriptor(USBD_SpeedTypeDef speed, uint16_t *length)
    * ID */
   Get_SerialNum();
   /* USER CODE BEGIN USBD_HS_SerialStrDescriptor */
+  kal_usb_uart_get_serial_descriptor(USBD_StringSerial, length);
 
   /* USER CODE END USBD_HS_SerialStrDescriptor */
 

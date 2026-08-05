@@ -25,6 +25,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <app_main.h>
+#include <kal/kal.h>
 
 /* USER CODE END Includes */
 
@@ -218,6 +219,7 @@ void MPU_Config(void)
 void Error_Handler(void)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
+  kal_crash();
   /* User can add his own implementation to report the HAL error return state */
   __disable_irq();
   while (1)

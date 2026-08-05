@@ -73,6 +73,21 @@ static void kal_init_safe_state(void) {
     kal_init_bus_power_disabled();
 }
 
+void kal_crash(void) {
+    static volatile bool crashing = false;
+
+    __disable_irq();
+
+    if(!crashing) {
+        crashing = true;
+        kal_gpio_set_pins_high(BUS_CONTROL_PORT, BUS_CONTROL_MASK);
+        kal_init_safe_state();
+    }
+
+    while(1) {
+    }
+}
+
 void MX_GPIO_Init(void) {
     kal_init_safe_state();
 }

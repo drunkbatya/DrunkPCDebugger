@@ -79,8 +79,7 @@ static void rpc_handle_power_on_bus(void) {
     bus_power_set_enabled(rpc_request.payload.power_on_bus_request.enable);
 
     rpc_response.which_payload = debugger_RpcResponse_power_on_bus_request_tag;
-    rpc_response.payload.power_on_bus_request =
-        rpc_make_error(debugger_ErrType_ERROR_TYPE_OK);
+    rpc_response.payload.power_on_bus_request = rpc_make_error(debugger_ErrType_ERROR_TYPE_OK);
 }
 
 static debugger_ErrType rpc_write_flash(const debugger_WriteFlashRequest* request) {

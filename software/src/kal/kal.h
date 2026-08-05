@@ -6,6 +6,8 @@ extern "C" {
 
 void kal_init(void);
 
+void kal_crash(void);
+
 #ifdef __cplusplus
 }
 #endif

@@ -1,11 +1,13 @@
 #include <kal/gpio.h>
 #include <kal/interrupt.h>
 
+#include <kal/kal.h>
+
 #include <main.h>
 #include <stm32h7xx_ll_bus.h>
 
 static uint32_t kal_gpio_invalid_argument_crash(void) {
-    Error_Handler();
+    kal_crash();
     return 0;
 }
 
@@ -67,7 +69,7 @@ static void kal_gpio_set_speed(const GpioPin* gpio, const GpioSpeed speed) {
         LL_GPIO_SetPinSpeed(gpio->port, gpio->pin, LL_GPIO_SPEED_FREQ_VERY_HIGH);
         break;
     default:
-        Error_Handler();
+        kal_crash();
     }
 }
 
@@ -83,7 +85,7 @@ static void kal_gpio_set_pull(const GpioPin* gpio, const GpioPull pull) {
         LL_GPIO_SetPinPull(gpio->port, gpio->pin, LL_GPIO_PULL_DOWN);
         break;
     default:
-        Error_Handler();
+        kal_crash();
     }
 }
 
@@ -157,7 +159,7 @@ static void kal_gpio_set_mode(const GpioPin* gpio, const GpioMode mode) {
         LL_GPIO_SetPinMode(gpio->port, gpio->pin, LL_GPIO_MODE_ANALOG);
         break;
     default:
-        Error_Handler();
+        kal_crash();
     }
 }
 
@@ -171,7 +173,7 @@ void kal_gpio_init(
     const GpioPull pull,
     const GpioSpeed speed) {
     if(mode == GpioModeAltFunctionPushPull || mode == GpioModeAltFunctionOpenDrain) {
-        Error_Handler();
+        kal_crash();
     }
     kal_gpio_init_ex(gpio, mode, pull, speed, GpioAltFnUnused);
 }
@@ -281,12 +283,12 @@ void kal_gpio_init_port(
 }
 
 void kal_gpio_add_int_callback(const GpioPin* gpio, GpioExtiCallback cb, void* ctx) {
-    if(gpio == NULL || cb == NULL) Error_Handler();
+    if(gpio == NULL || cb == NULL) kal_crash();
 
     kal_interrupt_critical_enter();
 
     const uint8_t pin_num = kal_gpio_get_pin_num(gpio);
-    if(gpio_interrupt[pin_num].callback != NULL) Error_Handler();
+    if(gpio_interrupt[pin_num].callback != NULL) kal_crash();
 
     gpio_interrupt[pin_num].callback = cb;
     gpio_interrupt[pin_num].context = ctx;
@@ -296,7 +298,7 @@ void kal_gpio_add_int_callback(const GpioPin* gpio, GpioExtiCallback cb, void* c
 }
 
 void kal_gpio_enable_int_callback(const GpioPin* gpio) {
-    if(gpio == NULL) Error_Handler();
+    if(gpio == NULL) kal_crash();
 
     kal_interrupt_critical_enter();
     LL_EXTI_EnableIT_0_31(GET_EXTI_LINE(gpio->pin));
@@ -304,7 +306,7 @@ void kal_gpio_enable_int_callback(const GpioPin* gpio) {
 }
 
 void kal_gpio_disable_int_callback(const GpioPin* gpio) {
-    if(gpio == NULL) Error_Handler();
+    if(gpio == NULL) kal_crash();
 
     const uint32_t exti_line = GET_EXTI_LINE(gpio->pin);
 
@@ -315,7 +317,7 @@ void kal_gpio_disable_int_callback(const GpioPin* gpio) {
 }
 
 void kal_gpio_remove_int_callback(const GpioPin* gpio) {
-    if(gpio == NULL) Error_Handler();
+    if(gpio == NULL) kal_crash();
 
     const uint32_t exti_line = GET_EXTI_LINE(gpio->pin);
 

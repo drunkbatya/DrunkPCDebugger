@@ -5,6 +5,7 @@
 #include <main.h>
 #include <usbd_cdc.h>
 #include <usbd_cdc_if.h>
+#include <usbd_ctlreq.h>
 #include <usbd_def.h>
 
 #define KAL_USB_UART_RX_BUFFER_MASK (KAL_USB_UART_RX_BUFFER_SIZE - 1U)
@@ -58,6 +59,34 @@ static size_t kal_usb_uart_rx_pop(uint8_t* data, size_t size) {
 
 void kal_usb_uart_on_rx(const uint8_t* data, size_t size) {
     kal_usb_uart_rx_push(data, size);
+}
+
+static char kal_usb_uart_get_hex_digit(uint32_t value) {
+    return value < 10U ? (char)('0' + value) : (char)('A' + value - 10U);
+}
+
+static uint32_t kal_usb_uart_get_device_id(void) {
+    const volatile uint32_t* uid = (const volatile uint32_t*)UID_BASE;
+    return uid[0] ^ uid[1] ^ uid[2];
+}
+
+void kal_usb_uart_get_serial_descriptor(uint8_t* descriptor, uint16_t* length) {
+    static const char prefix[] = KAL_USB_UART_SERIAL_PREFIX;
+    char serial[sizeof(prefix) + 8U];
+    size_t i = 0;
+
+    while(i < sizeof(prefix) - 1U) {
+        serial[i] = prefix[i];
+        i++;
+    }
+
+    const uint32_t device_id = kal_usb_uart_get_device_id();
+    for(int32_t shift = 28; shift >= 0; shift -= 4) {
+        serial[i++] = kal_usb_uart_get_hex_digit((device_id >> shift) & 0xFU);
+    }
+    serial[i] = '\0';
+
+    USBD_GetString((uint8_t*)serial, descriptor, length);
 }
 
 void kal_usb_uart_init(void) {

@@ -9,6 +9,7 @@ extern "C" {
 #endif
 
 #define KAL_USB_UART_RX_BUFFER_SIZE (4096U)
+#define KAL_USB_UART_SERIAL_PREFIX  "drunkpc_debug_"
 
 void kal_usb_uart_init(void);
 
@@ -25,6 +26,8 @@ bool kal_usb_uart_take_rx_overrun(void);
 bool kal_usb_uart_tx(const uint8_t* data, size_t size, uint32_t timeout_ms);
 
 void kal_usb_uart_on_rx(const uint8_t* data, size_t size);
+
+void kal_usb_uart_get_serial_descriptor(uint8_t* descriptor, uint16_t* length);
 
 #ifdef __cplusplus
 }

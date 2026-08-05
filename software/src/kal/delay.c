@@ -1,5 +1,7 @@
 #include <kal/delay.h>
 
+#include <kal/kal.h>
+
 #include <main.h>
 
 #define KAL_DELAY_DWT_LAR_ADDRESS (0xE0001FB0U)
@@ -35,7 +37,7 @@ void kal_delay_us(uint32_t us) {
 }
 
 bool kal_delay_is_expired(uint32_t started_at, uint32_t timeout_ms) {
-    if(timeout_ms > KAL_DELAY_MAX_TIMEOUT_MS) Error_Handler();
+    if(timeout_ms > KAL_DELAY_MAX_TIMEOUT_MS) kal_crash();
 
     const uint32_t timeout_cycles = timeout_ms * (SystemCoreClock / 1000U);
     return (DWT->CYCCNT - started_at) >= timeout_cycles;
