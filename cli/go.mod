@@ -4,6 +4,7 @@ go 1.26.3
 
 require (
 	github.com/alexflint/go-arg v1.6.1
+	github.com/chzyer/readline v1.5.1
 	go.bug.st/serial v1.8.0
 	go.uber.org/zap v1.28.0
 	google.golang.org/protobuf v1.36.11
