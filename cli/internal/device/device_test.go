@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"crypto/rand"
 	"errors"
+	"io"
 	"net"
 	"testing"
 
@@ -39,7 +40,7 @@ func startDevice(t *testing.T) *device.Device {
 	})
 
 	emulator.Start(deviceConn)
-	return device.New(transport.NewFramer(clientConn), zap.NewNop().Sugar())
+	return device.New(transport.NewFramer(clientConn), zap.NewNop().Sugar(), io.Discard)
 }
 
 func acquireBus(t *testing.T, dev *device.Device) {
@@ -88,7 +89,7 @@ func TestPowerOnAndOff(t *testing.T) {
 }
 
 func TestGenericErrorSurfaces(t *testing.T) {
-	dev := device.New(genericTransport{}, zap.NewNop().Sugar())
+	dev := device.New(genericTransport{}, zap.NewNop().Sugar(), io.Discard)
 	err := dev.AcquireBus()
 	requireDeviceError(t, err, pb.ErrType_ERROR_TYPE_BAD_REQUEST)
 }

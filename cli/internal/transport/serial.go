@@ -2,6 +2,7 @@ package transport
 
 import (
 	"fmt"
+	"strings"
 	"time"
 
 	"go.bug.st/serial"
@@ -9,7 +10,10 @@ import (
 	"go.uber.org/zap"
 )
 
-const readTimeout = 3 * time.Second
+const (
+	readTimeout  = 3 * time.Second
+	serialMarker = "_dpcdbg_"
+)
 
 type SerialTransport struct {
 	*Framer
@@ -51,16 +55,38 @@ func openPort(portPath string, baudrate int) (serial.Port, error) {
 }
 
 func autodetectPort(logger *zap.SugaredLogger) (string, error) {
-	logger.Infow("port isn't set explicitly, trying to found it..")
+	logger.Infof("serial port isn't specified, trying to found it..")
 	ports, err := enumerator.GetDetailedPortsList()
 	if err != nil {
-		return "", fmt.Errorf("failed to get serial ports list: %v", err)
+		return "", fmt.Errorf("failed to get serial ports list :-(( : %v", err)
 	}
-	if len(ports) == 0 {
-		return "", fmt.Errorf("no serial ports found :-(")
+
+	found := drunkpcPorts(ports)
+	switch len(found) {
+	case 0:
+		return "", fmt.Errorf("no attached devices found :-(")
+	case 1:
+		logger.Infof("found device :-) at path: %s", found[0])
+		return found[0], nil
+	default:
+		return "", fmt.Errorf("found %d devices :-)) : [%s], please pick only one with -p",
+			len(found), strings.Join(found, ", "))
 	}
-	// TODO: pick the DrunkPC device by USB VID/PID instead of failing
-	return "", fmt.Errorf("not implemented :-(")
+}
+
+func drunkpcPorts(ports []*enumerator.PortDetails) []string {
+	found := make([]string, 0, len(ports))
+	for _, port := range ports {
+		if isDrunkpcPort(port) {
+			found = append(found, port.Name)
+		}
+	}
+	return found
+}
+
+func isDrunkpcPort(port *enumerator.PortDetails) bool {
+	return strings.Contains(port.SerialNumber, serialMarker) ||
+		strings.Contains(port.Name, serialMarker)
 }
 
 func (s *SerialTransport) Close() {

@@ -2,11 +2,13 @@ package device
 
 import (
 	"fmt"
+	"io"
 
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/proto"
 
 	pb "drunkpc-debugger/generated"
+	"drunkpc-debugger/internal/progress"
 )
 
 const MaxChunkSize = uint32(pb.Const_CONST_MAX_CHUNK_SIZE)
@@ -41,13 +43,15 @@ type Transport interface {
 type Device struct {
 	transport     Transport
 	logger        *zap.SugaredLogger
+	out           io.Writer
 	nextRequestID uint32
 }
 
-func New(t Transport, logger *zap.SugaredLogger) *Device {
+func New(t Transport, logger *zap.SugaredLogger, out io.Writer) *Device {
 	return &Device{
 		transport:     t,
 		logger:        logger,
+		out:           out,
 		nextRequestID: 1,
 	}
 }
@@ -135,13 +139,20 @@ func (d *Device) setPower(enable bool) error {
 
 func (d *Device) WriteFlash(data []byte, address uint32) error {
 	total := uint32(len(data))
+	if total == 0 {
+		return nil
+	}
+
+	bar := progress.NewBytes(d.out, "writing flash", total)
 	for offset := uint32(0); offset < total; offset += MaxChunkSize {
 		chunk := data[offset:min(offset+MaxChunkSize, total)]
 		if err := d.writeChunk(address+offset, chunk); err != nil {
+			bar.Abort()
 			return err
 		}
-		d.logger.Infof("written %d/%d bytes", offset+uint32(len(chunk)), total)
+		bar.Advance(uint32(len(chunk)))
 	}
+	bar.Finish()
 	return nil
 }
 
@@ -163,15 +174,22 @@ func (d *Device) writeChunk(address uint32, chunk []byte) error {
 
 func (d *Device) ReadFlash(address uint32, size uint32) ([]byte, error) {
 	data := make([]byte, 0, size)
+	if size == 0 {
+		return data, nil
+	}
+
+	bar := progress.NewBytes(d.out, "reading flash", size)
 	for offset := uint32(0); offset < size; offset += MaxChunkSize {
 		chunkSize := min(MaxChunkSize, size-offset)
 		chunk, err := d.readChunk(address+offset, chunkSize)
 		if err != nil {
+			bar.Abort()
 			return nil, err
 		}
 		data = append(data, chunk...)
-		d.logger.Infof("read %d/%d bytes", offset+chunkSize, size)
+		bar.Advance(chunkSize)
 	}
+	bar.Finish()
 	return data, nil
 }
 

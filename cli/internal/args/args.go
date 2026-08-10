@@ -9,7 +9,7 @@ type Args struct {
 	Interactive bool     `arg:"-i,--interactive" help:"drop into the interactive shell after running commands"`
 
 	OnlyShowVersion bool   `arg:"-v,--version"`
-	Port            string `arg:"-p,--port"`
+	Port            string `arg:"-p,--port" help:"serial port, autodetected when omitted"`
 	Baudrate        int    `arg:"-b,--baud" default:"115200"`
 	LogLevel        string `arg:"--log_level" default:"info"`
 }
