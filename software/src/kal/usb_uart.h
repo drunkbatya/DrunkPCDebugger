@@ -9,7 +9,7 @@ extern "C" {
 #endif
 
 #define KAL_USB_UART_RX_BUFFER_SIZE (4096U)
-#define KAL_USB_UART_SERIAL_PREFIX  "drunkpc_debug_"
+#define KAL_USB_UART_SERIAL_PREFIX  "_dpcdbg_"
 
 void kal_usb_uart_init(void);
 
