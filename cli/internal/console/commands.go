@@ -105,7 +105,7 @@ func runVerifyFlash(s *Session, args []string) error {
 	if !bytes.Equal(expected, actual) {
 		return fmt.Errorf("verify failed at 0x%08x: contents differ", address)
 	}
-	//s.Printf("verify ok: %d bytes match at 0x%08x\n", len(expected), address)
+	s.logger.Infow("verify ok: %d bytes match at 0x%08x\n", len(expected), address)
 	return nil
 }
 
