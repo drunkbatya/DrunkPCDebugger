@@ -40,7 +40,7 @@ func run() int {
 	}
 	defer serial.Close()
 
-	session := console.NewSession(device.New(serial, logger, os.Stdout), os.Stdout)
+	session := console.NewSession(device.New(serial, logger, os.Stdout), os.Stdout, logger)
 	registry := console.DefaultCommands()
 
 	if len(parsedArgs.Commands) > 0 {

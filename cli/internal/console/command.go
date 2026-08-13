@@ -5,16 +5,19 @@ import (
 	"io"
 	"strings"
 
+	"go.uber.org/zap"
+
 	"drunkpc-debugger/internal/device"
 )
 
 type Session struct {
 	device *device.Device
 	out    io.Writer
+	logger *zap.SugaredLogger
 }
 
-func NewSession(dev *device.Device, out io.Writer) *Session {
-	return &Session{device: dev, out: out}
+func NewSession(dev *device.Device, out io.Writer, logger *zap.SugaredLogger) *Session {
+	return &Session{device: dev, out: out, logger: logger}
 }
 
 func (s *Session) Printf(format string, args ...any) {

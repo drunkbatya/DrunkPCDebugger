@@ -30,7 +30,6 @@ func DefaultCommands() *Registry {
 		{Name: "command", Help: "command to describe", Complete: CompleteCommand, Optional: true},
 	}, Run: r.help})
 	r.Add(&Command{Name: "exit", Summary: "leave the interactive shell", Usage: "exit", Interactive: true, Run: runExit})
-	r.Add(&Command{Name: "quit", Summary: "leave the interactive shell", Usage: "quit", Interactive: true, Run: runExit})
 	return r
 }
 
@@ -66,7 +65,7 @@ func runWriteFlash(s *Session, args []string) error {
 	if err := s.device.WriteFlash(data, address); err != nil {
 		return err
 	}
-	s.Printf("wrote %d bytes at 0x%08x\n", len(data), address)
+	s.logger.Infow("wrote %d bytes at 0x%08x\n", len(data), address)
 	return nil
 }
 
@@ -86,7 +85,7 @@ func runReadFlash(s *Session, args []string) error {
 	if err := os.WriteFile(args[0], data, 0644); err != nil {
 		return err
 	}
-	s.Printf("read %d bytes from 0x%08x into %s\n", len(data), address, args[0])
+	s.logger.Infow("read %d bytes from 0x%08x into %s\n", len(data), address, args[0])
 	return nil
 }
 
@@ -106,7 +105,7 @@ func runVerifyFlash(s *Session, args []string) error {
 	if !bytes.Equal(expected, actual) {
 		return fmt.Errorf("verify failed at 0x%08x: contents differ", address)
 	}
-	s.Printf("verify ok: %d bytes match at 0x%08x\n", len(expected), address)
+	//s.Printf("verify ok: %d bytes match at 0x%08x\n", len(expected), address)
 	return nil
 }
 
