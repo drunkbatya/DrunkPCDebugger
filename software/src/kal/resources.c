@@ -5,10 +5,10 @@
 const GpioPin gpio_led_pin = {.port = LED_GPIO_Port, .pin = LED_Pin};
 const GpioPin gpio_bus_pwr_pin = {.port = BUS_PWR_GPIO_Port, .pin = BUS_PWR_Pin};
 
-const GpioPin gpio_addr_bus_dir_pin = {.port = ADDR_BUS_DIR_GPIO_Port, .pin = ADDR_BUS_DIR_Pin};
-const GpioPin gpio_data_bus_dir_pin = {.port = DATA_BUS_DIR_GPIO_Port, .pin = DATA_BUS_DIR_Pin};
-const GpioPin gpio_ctrl_bus_dir_pin = {.port = CTRL_BUS_DIR_GPIO_Port, .pin = CTRL_BUS_DIR_Pin};
-const GpioPin gpio_bus_oe_pin = {.port = BUS_OE_GPIO_Port, .pin = BUS_OE_Pin};
+const GpioPin gpio_addr_bus_dir_pin = {.port = ADDR_BUS_DIR_GPIO_Port, .pin = ADDR_BUS_DIR_Pin};  // PB12
+const GpioPin gpio_data_bus_dir_pin = {.port = DATA_BUS_DIR_GPIO_Port, .pin = DATA_BUS_DIR_Pin};  // PB14
+const GpioPin gpio_ctrl_bus_dir_pin = {.port = CTRL_BUS_DIR_GPIO_Port, .pin = CTRL_BUS_DIR_Pin};  // PA3
+const GpioPin gpio_bus_oe_pin = {.port = BUS_OE_GPIO_Port, .pin = BUS_OE_Pin};  // PB13
 
 const GpioPin gpio_wr_pin = {.port = _WR_GPIO_Port, .pin = _WR_Pin};
 const GpioPin gpio_rd_pin = {.port = _RD_GPIO_Port, .pin = _RD_Pin};
