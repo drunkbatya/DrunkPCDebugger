@@ -367,7 +367,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -379,7 +379,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -390,7 +390,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -401,7 +401,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -414,7 +414,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -427,7 +427,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -567,7 +567,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -579,7 +579,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -590,7 +590,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -601,7 +601,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -614,7 +614,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -627,7 +627,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -767,7 +767,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -779,7 +779,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -790,7 +790,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -801,7 +801,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -814,7 +814,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -827,7 +827,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -967,7 +967,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -979,7 +979,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -990,7 +990,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1001,7 +1001,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1014,7 +1014,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1027,7 +1027,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1607,7 +1607,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1619,7 +1619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1630,7 +1630,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1641,7 +1641,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1654,7 +1654,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1667,7 +1667,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1807,7 +1807,7 @@
 				)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1819,7 +1819,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1841,7 +1841,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1854,7 +1854,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1867,7 +1867,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2007,7 +2007,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2019,7 +2019,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2030,7 +2030,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2041,7 +2041,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2054,7 +2054,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2067,7 +2067,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3527,7 +3527,7 @@
 				)
 			)
 		)
-		(property "Value" "FRC0603F1001TS"
+		(property "Value" "0603WAF1001T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3539,7 +3539,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F1001TS_C2907002.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3561,7 +3561,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907002"
+		(property "LCSC" "C21190"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3574,7 +3574,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3587,7 +3587,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "FRC0603F1001TS"
+		(property "Manufacturer Part" "0603WAF1001T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4057,7 +4057,7 @@
 				)
 			)
 		)
-		(property "Value" "FRC0603J104_TS"
+		(property "Value" "0603WAF1003T5E"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4069,7 +4069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411071710_FOJAN-FRC0603J104-TS_C2907088.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4080,7 +4080,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±100ppm/℃ ±5% 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4091,7 +4091,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907088"
+		(property "LCSC" "C25803"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4104,7 +4104,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4117,7 +4117,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "FRC0603J104 TS"
+		(property "Manufacturer Part" "0603WAF1003T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4257,7 +4257,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4269,7 +4269,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4280,7 +4280,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4291,7 +4291,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4304,7 +4304,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4317,7 +4317,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4677,7 +4677,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD0710KL"
+		(property "Value" "0603WAF1002T5E"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4689,7 +4689,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811082117_YAGEO-RT0603BRD0710KL_C95204.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4700,7 +4700,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4711,7 +4711,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C95204"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4724,7 +4724,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4737,7 +4737,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD0710KL"
+		(property "Manufacturer Part" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5077,7 +5077,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5089,7 +5089,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5100,7 +5100,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5111,7 +5111,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5124,7 +5124,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5137,7 +5137,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5277,7 +5277,7 @@
 				)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5289,7 +5289,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5311,7 +5311,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5324,7 +5324,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5337,7 +5337,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5477,7 +5477,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5489,7 +5489,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5500,7 +5500,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5511,7 +5511,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5524,7 +5524,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5537,7 +5537,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5880,7 +5880,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5892,7 +5892,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5903,7 +5903,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5914,7 +5914,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5927,7 +5927,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5940,7 +5940,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6080,7 +6080,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD0710KL"
+		(property "Value" "0603WAF1002T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6092,7 +6092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811082117_YAGEO-RT0603BRD0710KL_C95204.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6103,7 +6103,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6114,7 +6114,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C95204"
+		(property "LCSC" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6127,7 +6127,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6140,7 +6140,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD0710KL"
+		(property "Manufacturer Part" "0603WAF1002T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6280,7 +6280,7 @@
 				)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6292,7 +6292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6314,7 +6314,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6327,7 +6327,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6340,7 +6340,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6835,7 +6835,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6847,7 +6847,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6858,7 +6858,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6869,7 +6869,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6882,7 +6882,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6895,7 +6895,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7035,7 +7035,7 @@
 				)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7047,7 +7047,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7069,7 +7069,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7082,7 +7082,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7095,7 +7095,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7235,7 +7235,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7247,7 +7247,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7258,7 +7258,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7269,7 +7269,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7282,7 +7282,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7295,7 +7295,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7435,7 +7435,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7447,7 +7447,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7458,7 +7458,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7469,7 +7469,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7482,7 +7482,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7495,7 +7495,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7835,7 +7835,7 @@
 				)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7847,7 +7847,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7869,7 +7869,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7882,7 +7882,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7895,7 +7895,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8035,7 +8035,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8047,7 +8047,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8058,7 +8058,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8069,7 +8069,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8082,7 +8082,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8095,7 +8095,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8235,7 +8235,7 @@
 				)
 			)
 		)
-		(property "Value" "FRC0603F5101TS"
+		(property "Value" "0603WAF5101T5E"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8247,7 +8247,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F5101TS_C2907044.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5101T5E_C23186.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8269,7 +8269,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907044"
+		(property "LCSC" "C23186"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8282,7 +8282,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8295,7 +8295,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "FRC0603F5101TS"
+		(property "Manufacturer Part" "0603WAF5101T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8435,7 +8435,7 @@
 				)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8447,7 +8447,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8469,7 +8469,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8482,7 +8482,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8495,7 +8495,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9063,7 +9063,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9075,7 +9075,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9086,7 +9086,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9097,7 +9097,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9110,7 +9110,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9123,7 +9123,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9263,7 +9263,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9275,7 +9275,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9286,7 +9286,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9297,7 +9297,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9310,7 +9310,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9323,7 +9323,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9463,7 +9463,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9475,7 +9475,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9486,7 +9486,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9497,7 +9497,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9510,7 +9510,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9523,7 +9523,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11166,7 +11166,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD0710KL"
+		(property "Value" "0603WAF1002T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11178,7 +11178,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811082117_YAGEO-RT0603BRD0710KL_C95204.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11189,7 +11189,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11200,7 +11200,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C95204"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11213,7 +11213,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11226,7 +11226,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD0710KL"
+		(property "Manufacturer Part" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11635,7 +11635,7 @@
 				)
 			)
 		)
-		(property "Value" "FRC0603F5101TS"
+		(property "Value" "0603WAF5101T5E"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11647,7 +11647,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F5101TS_C2907044.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5101T5E_C23186.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11669,7 +11669,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907044"
+		(property "LCSC" "C23186"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11682,7 +11682,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11695,7 +11695,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "FRC0603F5101TS"
+		(property "Manufacturer Part" "0603WAF5101T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11836,7 +11836,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11848,7 +11848,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11859,7 +11859,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11870,7 +11870,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11883,7 +11883,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11896,7 +11896,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12036,7 +12036,7 @@
 				)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12048,7 +12048,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12059,7 +12059,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12070,7 +12070,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12083,7 +12083,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12096,7 +12096,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12237,7 +12237,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12250,7 +12250,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12262,7 +12262,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12274,7 +12274,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12288,7 +12288,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12302,7 +12302,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12734,7 +12734,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12747,7 +12747,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12771,7 +12771,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12785,7 +12785,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12799,7 +12799,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12943,7 +12943,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12956,7 +12956,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12968,7 +12968,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12980,7 +12980,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12994,7 +12994,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13008,7 +13008,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13339,7 +13339,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -13352,7 +13352,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -13376,7 +13376,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13390,7 +13390,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13404,7 +13404,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13548,7 +13548,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -13561,7 +13561,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -13585,7 +13585,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13599,7 +13599,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13613,7 +13613,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13757,7 +13757,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD0710KL"
+		(property "Value" "0603WAF1002T5E"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -13770,7 +13770,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811082117_YAGEO-RT0603BRD0710KL_C95204.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -13782,7 +13782,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -13794,7 +13794,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C95204"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13808,7 +13808,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13822,7 +13822,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD0710KL"
+		(property "Manufacturer Part" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15444,7 +15444,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD0710KL"
+		(property "Value" "0603WAF1002T5E"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -15457,7 +15457,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811082117_YAGEO-RT0603BRD0710KL_C95204.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -15469,7 +15469,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -15481,7 +15481,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C95204"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15495,7 +15495,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15509,7 +15509,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD0710KL"
+		(property "Manufacturer Part" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15653,7 +15653,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD0710KL"
+		(property "Value" "0603WAF1002T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -15666,7 +15666,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811082117_YAGEO-RT0603BRD0710KL_C95204.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -15678,7 +15678,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -15690,7 +15690,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C95204"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15704,7 +15704,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15718,7 +15718,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD0710KL"
+		(property "Manufacturer Part" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16071,7 +16071,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -16084,7 +16084,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -16096,7 +16096,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -16108,7 +16108,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16122,7 +16122,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16136,7 +16136,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16280,7 +16280,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -16293,7 +16293,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -16317,7 +16317,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16331,7 +16331,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16345,7 +16345,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16489,7 +16489,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -16502,7 +16502,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -16514,7 +16514,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -16526,7 +16526,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16540,7 +16540,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16554,7 +16554,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16907,7 +16907,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -16920,7 +16920,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -16932,7 +16932,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -16944,7 +16944,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16958,7 +16958,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16972,7 +16972,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17116,7 +17116,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -17129,7 +17129,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -17153,7 +17153,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17167,7 +17167,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17181,7 +17181,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17534,7 +17534,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD0710KL"
+		(property "Value" "0603WAF1002T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -17547,7 +17547,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811082117_YAGEO-RT0603BRD0710KL_C95204.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -17559,7 +17559,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -17571,7 +17571,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C95204"
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17585,7 +17585,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17599,7 +17599,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD0710KL"
+		(property "Manufacturer Part" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17930,7 +17930,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -17943,7 +17943,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -17955,7 +17955,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -17967,7 +17967,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17981,7 +17981,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17995,7 +17995,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18326,7 +18326,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -18339,7 +18339,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -18363,7 +18363,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18377,7 +18377,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18391,7 +18391,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18744,7 +18744,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -18757,7 +18757,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -18781,7 +18781,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18795,7 +18795,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18809,7 +18809,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18953,7 +18953,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD0710KL"
+		(property "Value" "0603WAF1002T5E"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -18966,7 +18966,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811082117_YAGEO-RT0603BRD0710KL_C95204.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -18978,7 +18978,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -18990,7 +18990,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C95204"
+		(property "LCSC" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19004,7 +19004,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19018,7 +19018,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD0710KL"
+		(property "Manufacturer Part" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19708,7 +19708,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD0710KL"
+		(property "Value" "0603WAF1002T5E"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -19721,7 +19721,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811082117_YAGEO-RT0603BRD0710KL_C95204.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -19733,7 +19733,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -19745,7 +19745,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C95204"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19759,7 +19759,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19773,7 +19773,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD0710KL"
+		(property "Manufacturer Part" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19917,7 +19917,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -19930,7 +19930,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -19942,7 +19942,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -19954,7 +19954,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19968,7 +19968,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19982,7 +19982,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20126,7 +20126,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -20139,7 +20139,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -20151,7 +20151,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -20163,7 +20163,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20177,7 +20177,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20191,7 +20191,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20335,7 +20335,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "FRC0603F1001TS"
+		(property "Value" "0603WAF1001T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -20348,7 +20348,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F1001TS_C2907002.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -20372,7 +20372,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2907002"
+		(property "LCSC" "C21190"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20386,7 +20386,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "FOJAN"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20400,7 +20400,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "FRC0603F1001TS"
+		(property "Manufacturer Part" "0603WAF1001T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20544,7 +20544,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "FRC0603F1001TS"
+		(property "Value" "0603WAF1001T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -20557,7 +20557,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F1001TS_C2907002.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -20581,7 +20581,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2907002"
+		(property "LCSC" "C21190"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20595,7 +20595,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "FOJAN"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20609,7 +20609,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "FRC0603F1001TS"
+		(property "Manufacturer Part" "0603WAF1001T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20993,7 +20993,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21006,7 +21006,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21030,7 +21030,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21044,7 +21044,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21058,7 +21058,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21880,7 +21880,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21893,7 +21893,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21905,7 +21905,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21917,7 +21917,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21931,7 +21931,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21945,7 +21945,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22089,7 +22089,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -22102,7 +22102,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -22114,7 +22114,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -22126,7 +22126,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22140,7 +22140,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22154,7 +22154,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22298,7 +22298,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -22311,7 +22311,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -22335,7 +22335,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22349,7 +22349,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22363,7 +22363,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22507,7 +22507,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "CC0603KRX7R9BB104"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -22520,7 +22520,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -22544,7 +22544,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22558,7 +22558,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22572,7 +22572,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "CL10B104KB8NNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22716,7 +22716,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -22729,7 +22729,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -22741,7 +22741,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -22753,7 +22753,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22767,7 +22767,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22781,7 +22781,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23372,7 +23372,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD0710KL"
+		(property "Value" "0603WAF1002T5E"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -23385,7 +23385,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811082117_YAGEO-RT0603BRD0710KL_C95204.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -23397,7 +23397,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -23409,7 +23409,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C95204"
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23423,7 +23423,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23437,7 +23437,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD0710KL"
+		(property "Manufacturer Part" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23581,7 +23581,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RT0603BRD07100RL"
+		(property "Value" "0603WAF1000T5E"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -23594,7 +23594,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RT0603BRD07100RL_C122970.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -23606,7 +23606,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -23618,7 +23618,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C122970"
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23632,7 +23632,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23646,7 +23646,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "RT0603BRD07100RL"
+		(property "Manufacturer Part" "0603WAF1000T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
