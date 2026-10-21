@@ -11830,10 +11830,6 @@
 		(uuid "1ffbed25-7855-487d-bbc3-a5a10d9fd78f")
 	)
 	(no_connect
-		(at 137.16 96.52)
-		(uuid "30a3321b-8cc9-4c04-8e1e-681fb62fb2b0")
-	)
-	(no_connect
 		(at 137.16 132.08)
 		(uuid "3335f2f1-2538-4d27-9890-a5dc860c32c0")
 	)
@@ -11908,6 +11904,10 @@
 	(no_connect
 		(at 256.54 29.21)
 		(uuid "aa0e5d26-c04d-4838-b012-9e0c1e856374")
+	)
+	(no_connect
+		(at 137.16 55.88)
+		(uuid "aaecf01a-941a-4610-86d0-676ea72c498b")
 	)
 	(no_connect
 		(at 137.16 71.12)
@@ -12084,16 +12084,6 @@
 			(type default)
 		)
 		(uuid "0746ba7a-0e0d-49a9-8146-73b278d448af")
-	)
-	(wire
-		(pts
-			(xy 114.3 50.8) (xy 133.35 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07ef55f8-5521-424e-a525-4f441d9a2418")
 	)
 	(wire
 		(pts
@@ -13024,16 +13014,6 @@
 			(type default)
 		)
 		(uuid "2d614ad9-7299-4dca-9490-22602518624d")
-	)
-	(wire
-		(pts
-			(xy 133.35 50.8) (xy 133.35 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db07619-dfcd-4cc3-9c43-4bbb9fbdec43")
 	)
 	(wire
 		(pts
@@ -16537,16 +16517,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 55.88) (xy 137.16 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbce36e3-e49d-4981-821a-41981f6bf8f5")
-	)
-	(wire
-		(pts
 			(xy 180.34 40.64) (xy 177.8 40.64)
 		)
 		(stroke
@@ -16634,6 +16604,16 @@
 			(type default)
 		)
 		(uuid "d227055b-9695-4498-bf4b-90d012b8a1d2")
+	)
+	(wire
+		(pts
+			(xy 121.92 96.52) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2451be8-6654-4731-8e72-65d7ce426d26")
 	)
 	(wire
 		(pts
@@ -18575,16 +18555,6 @@
 		)
 		(uuid "761917d3-4961-4827-a427-cf1a0107e27d")
 	)
-	(label "MCU_CTRL_BUS_DIR"
-		(at 114.3 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7654b2b4-297e-403c-9df7-7cb43df59ea4")
-	)
 	(label "MCU_A0"
 		(at 186.69 83.82 0)
 		(effects
@@ -20194,6 +20164,16 @@
 			(justify right bottom)
 		)
 		(uuid "f755ce16-3897-4ed8-83a3-77874c6d77df")
+	)
+	(label "MCU_CTRL_BUS_DIR"
+		(at 121.92 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f76ed908-b26a-42b8-9643-c7a972992594")
 	)
 	(label "MCU_VCAP"
 		(at 198.12 101.6 0)
