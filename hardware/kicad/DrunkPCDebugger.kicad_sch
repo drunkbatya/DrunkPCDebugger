@@ -5,6 +5,200 @@
 	(uuid "1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce")
 	(paper "A3")
 	(lib_symbols
+		(symbol "CL10A225KO8NNNC_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CL10A225KO8NNNC"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A225KO8NNNC_C23630.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "16V 2.2uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C23630"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "CL10A225KO8NNNC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C0603 C23630 CL10A225KO8NNNC Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CL10A225KO8NNNC_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CL10C180JB8NNNC_3"
 			(pin_numbers
 				(hide yes)
@@ -904,6 +1098,167 @@
 				)
 			)
 			(symbol "0603WAF1003T5E_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:0603WAF4702T5E"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF4702T5E"
+				(at 0 -3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF4702T5E_C25819.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 100mW 47kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C25819"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "0603WAF4702T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "0603WAF4702T5E C25819 R0603 UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603WAF4702T5E_0_1"
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
@@ -4880,7 +5235,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:STM32H723VGT6"
+		(symbol "JLCImport:STM32H723VET6"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4899,7 +5254,7 @@
 					)
 				)
 			)
-			(property "Value" "STM32H723VGT6"
+			(property "Value" "STM32H723VET6"
 				(at 0 -66.77 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4909,7 +5264,7 @@
 					)
 				)
 			)
-			(property "Footprint" "JLCImport:STM32H723VGT6"
+			(property "Footprint" "JLCImport:STM32H723VET6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4920,7 +5275,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_STMicroelectronics-STM32H723VGT6_C730142.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_STMicroelectronics-STM32H723VET6_C730141.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4931,7 +5286,7 @@
 					)
 				)
 			)
-			(property "Description" "-40℃~+85℃ 1.71V~3.6V 12bit 16bit 1MB 32 Bit 550MHz 564KB 80 ARM Cortex-M7 Built-in FLASH LQFP-100(14x14) Microcontrollers (MCU/MPU/SOC) ROHS"
+			(property "Description" "-40℃~+85℃ 1.71V~3.6V 12bit 16bit 32 Bit 512KB 550MHz 564KB 80 ARM Cortex-M7 Built-in FLASH LQFP-100(14x14) Microcontrollers (MCU/MPU/SOC) ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4942,7 +5297,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C730142"
+			(property "LCSC" "C730141"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4964,7 +5319,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "STM32H723VGT6"
+			(property "Manufacturer Part" "STM32H723VET6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4975,7 +5330,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "C730142 LQFP-100_L14.0-W14.0-P0.50-LS16.0-BL STM32H723VGT6 STMicroelectronics"
+			(property "ki_keywords" "C730141 LQFP-100_L14.0-W14.0-P0.50-LS16.0-BL STM32H723VET6 STMicroelectronics"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4986,7 +5341,7 @@
 					)
 				)
 			)
-			(symbol "STM32H723VGT6_0_1"
+			(symbol "STM32H723VET6_0_1"
 				(circle
 					(center -16.51 63.5)
 					(radius 0.381)
@@ -11015,6 +11370,12 @@
 		(uuid "08384a90-3511-4e13-bd0d-37b9cf33eb5b")
 	)
 	(junction
+		(at 125.73 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "092ba29b-e12c-47c9-bf46-f8278940d18e")
+	)
+	(junction
 		(at 242.57 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11045,6 +11406,12 @@
 		(uuid "114d4bb3-108e-4107-a49e-99be3738446a")
 	)
 	(junction
+		(at 218.44 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1157e49d-8023-4d35-997c-7eee2f607f7e")
+	)
+	(junction
 		(at 73.66 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11067,6 +11434,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2024a6a5-5dcd-475c-a42d-a98ff565dbfd")
+	)
+	(junction
+		(at 196.85 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26479d43-f16d-4c1b-8fb2-23305e8675e5")
 	)
 	(junction
 		(at 274.32 52.07)
@@ -11129,6 +11502,12 @@
 		(uuid "3ae15beb-b0a8-4f43-b4ad-2e95ac332b5c")
 	)
 	(junction
+		(at 213.36 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40e2e500-f504-4679-b740-0fcc765cfb8b")
+	)
+	(junction
 		(at 355.6 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11157,6 +11536,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45573a4c-59a8-4596-bc7a-c2c79059445e")
+	)
+	(junction
+		(at 203.2 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4951539c-6689-4000-89cb-73d6ca9e4955")
 	)
 	(junction
 		(at 236.22 96.52)
@@ -11219,16 +11604,16 @@
 		(uuid "7bd313e2-9f8f-4ebf-bc10-306ed07b112c")
 	)
 	(junction
-		(at 137.16 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cb629e0-6eb1-4e99-8e7e-c74b25d8e70a")
-	)
-	(junction
 		(at 69.85 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cb85591-1f7b-4570-9463-95dd97ca2589")
+	)
+	(junction
+		(at 133.35 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "822844d7-1ce6-4b71-bbba-99cfa28c1301")
 	)
 	(junction
 		(at 58.42 63.5)
@@ -11435,10 +11820,10 @@
 		(uuid "da740666-f280-44be-8aff-6e065bfa8acd")
 	)
 	(junction
-		(at 196.85 234.95)
+		(at 134.62 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da90b20f-2358-49e9-b0d4-6d2723fa7723")
+		(uuid "db669fe5-2f70-49b2-9b37-f47b107374a2")
 	)
 	(junction
 		(at 232.41 161.29)
@@ -11451,12 +11836,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc9ba02b-38c7-44c4-827d-e5aaa04ececb")
-	)
-	(junction
-		(at 134.62 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "debe2ca7-daac-4c55-9b0a-0ad8adeb4103")
 	)
 	(junction
 		(at 142.24 182.88)
@@ -11487,12 +11866,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6927b65-de51-4890-83ed-f918ae2cda50")
-	)
-	(junction
-		(at 137.16 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8083b1c-440f-49c7-9bbd-ba579b98467d")
 	)
 	(junction
 		(at 238.76 39.37)
@@ -11667,10 +12040,6 @@
 		(uuid "af402b33-538c-4468-bcbc-69e67bc9d6f8")
 	)
 	(no_connect
-		(at 177.8 119.38)
-		(uuid "bd31db86-1743-40ef-9f95-e0826c31fe3b")
-	)
-	(no_connect
 		(at 137.16 134.62)
 		(uuid "c7d7e225-660e-4267-b9be-6edfd5b11f0d")
 	)
@@ -11766,16 +12135,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 160.02) (xy 139.7 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04784e0b-0762-4672-993a-ae15ada2e037")
-	)
-	(wire
-		(pts
 			(xy 314.96 227.33) (xy 309.88 227.33)
 		)
 		(stroke
@@ -11856,7 +12215,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 234.95) (xy 203.2 241.3)
+			(xy 203.2 234.95) (xy 203.2 243.84)
 		)
 		(stroke
 			(width 0)
@@ -12026,6 +12385,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 247.65) (xy 213.36 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10895d4d-8a81-43bc-bec1-d605ffc404c6")
+	)
+	(wire
+		(pts
 			(xy 227.33 215.9) (xy 227.33 227.33)
 		)
 		(stroke
@@ -12063,6 +12432,16 @@
 			(type default)
 		)
 		(uuid "1351b3dc-aab3-454c-b307-4644b32dca9b")
+	)
+	(wire
+		(pts
+			(xy 133.35 198.12) (xy 133.35 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b057b1-6a12-4b82-a700-8c555be52c02")
 	)
 	(wire
 		(pts
@@ -12856,6 +13235,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 219.71) (xy 133.35 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346b041b-c68e-4979-a215-14ba7edb635a")
+	)
+	(wire
+		(pts
 			(xy 129.54 157.48) (xy 137.16 157.48)
 		)
 		(stroke
@@ -13393,6 +13782,16 @@
 			(type default)
 		)
 		(uuid "48cb05d7-690e-461a-959d-93a75ec41c32")
+	)
+	(wire
+		(pts
+			(xy 134.62 86.36) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48da7272-4c35-4ae0-ae9f-6b221f75181e")
 	)
 	(wire
 		(pts
@@ -14136,6 +14535,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 160.02) (xy 137.16 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b39494e-9b58-46f3-bf95-466cbaed14e8")
+	)
+	(wire
+		(pts
 			(xy 71.12 185.42) (xy 73.66 185.42)
 		)
 		(stroke
@@ -14163,6 +14572,16 @@
 			(type default)
 		)
 		(uuid "6be14f7c-f760-470c-b302-48727e593abb")
+	)
+	(wire
+		(pts
+			(xy 186.69 119.38) (xy 177.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c43b32e-b2f9-4cbd-98f5-fbecbcc485fa")
 	)
 	(wire
 		(pts
@@ -14273,16 +14692,6 @@
 			(type default)
 		)
 		(uuid "70d54295-8e53-41f4-a3c0-d3a915a0e427")
-	)
-	(wire
-		(pts
-			(xy 134.62 86.36) (xy 137.16 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "711ed357-fffe-45c0-bf42-838743400132")
 	)
 	(wire
 		(pts
@@ -14646,6 +15055,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 243.84) (xy 203.2 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9a9448-7d70-4ce8-ba68-adf50b99495f")
+	)
+	(wire
+		(pts
 			(xy 274.32 52.07) (xy 274.32 55.88)
 		)
 		(stroke
@@ -14863,6 +15282,16 @@
 			(type default)
 		)
 		(uuid "82a287d9-eab8-46f7-949e-e909987b35e4")
+	)
+	(wire
+		(pts
+			(xy 213.36 227.33) (xy 213.36 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b434e1-3bdc-47ce-8e2f-446b52eb0223")
 	)
 	(wire
 		(pts
@@ -15103,6 +15532,16 @@
 			(type default)
 		)
 		(uuid "8c91f23c-a573-4af8-87f0-1b94961eeecd")
+	)
+	(wire
+		(pts
+			(xy 125.73 218.44) (xy 133.35 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce7e8b8-22da-418d-9a25-99cb1f149956")
 	)
 	(wire
 		(pts
@@ -15656,6 +16095,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 243.84) (xy 213.36 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71aaa89-a1d1-4530-8a6d-9aa17da34228")
+	)
+	(wire
+		(pts
 			(xy 151.13 182.88) (xy 160.02 182.88)
 		)
 		(stroke
@@ -16126,16 +16575,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 160.02) (xy 137.16 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0d2ff47-4961-4ef0-be8e-1c2fefdf1f1c")
-	)
-	(wire
-		(pts
 			(xy 227.33 146.05) (xy 229.87 146.05)
 		)
 		(stroke
@@ -16143,6 +16582,16 @@
 			(type default)
 		)
 		(uuid "c16e030a-62c2-44d7-86ae-c1c7cf4db435")
+	)
+	(wire
+		(pts
+			(xy 224.79 185.42) (xy 218.44 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b1cbf6-bf44-4469-81c5-2a7f0fa25462")
 	)
 	(wire
 		(pts
@@ -16406,6 +16855,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 218.44) (xy 133.35 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1dc2092-9ae7-43b1-a167-ae0d4519f644")
+	)
+	(wire
+		(pts
 			(xy 236.22 77.47) (xy 236.22 96.52)
 		)
 		(stroke
@@ -16486,16 +16945,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 241.3) (xy 213.36 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d51abaae-1368-4d08-826d-3fd336c8aec8")
-	)
-	(wire
-		(pts
 			(xy 77.47 53.34) (xy 71.12 53.34)
 		)
 		(stroke
@@ -16503,16 +16952,6 @@
 			(type default)
 		)
 		(uuid "d5cdcd52-14a2-4cb8-aab5-a181e162aba8")
-	)
-	(wire
-		(pts
-			(xy 137.16 86.36) (xy 139.7 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d73b7ef3-ad39-4d70-a379-c9bd80c949ab")
 	)
 	(wire
 		(pts
@@ -16976,7 +17415,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 35.56) (xy 86.36 35.56)
+			(xy 71.12 35.56) (xy 77.47 35.56)
 		)
 		(stroke
 			(width 0)
@@ -17043,6 +17482,16 @@
 			(type default)
 		)
 		(uuid "f3b99f3d-3d04-4856-b4ca-bb9359e64f32")
+	)
+	(wire
+		(pts
+			(xy 204.47 247.65) (xy 203.2 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ba2181-948e-4e39-9874-4de0cc58c710")
 	)
 	(wire
 		(pts
@@ -17474,7 +17923,7 @@
 		)
 		(uuid "112e9beb-cc5b-46ea-8d98-507317cfde07")
 	)
-	(label "MCU_BUS_OE{slash}"
+	(label "BUS_OE{slash}"
 		(at 86.36 85.09 0)
 		(effects
 			(font
@@ -17503,6 +17952,16 @@
 			(justify right bottom)
 		)
 		(uuid "1637888d-deeb-4cdf-9654-496c13ff167a")
+	)
+	(label "BUS_OE{slash}"
+		(at 133.35 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "164d3489-2cd2-4ad7-a7f9-83b9ad7c66a8")
 	)
 	(label "BUS_CF_EN{slash}"
 		(at 351.79 185.42 180)
@@ -17794,7 +18253,7 @@
 		)
 		(uuid "3a990eef-df0e-4dda-9c83-e4c3cdf7664e")
 	)
-	(label "MCU_BUS_OE{slash}"
+	(label "BUS_OE{slash}"
 		(at 86.36 187.96 0)
 		(effects
 			(font
@@ -18864,6 +19323,16 @@
 		)
 		(uuid "9ead33aa-20b6-4796-a609-2c604de82a52")
 	)
+	(label "MCU_BUS_5V_ADC"
+		(at 186.69 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a09f8d84-9fe4-42a3-8cd5-04ef8a6012e5")
+	)
 	(label "BUS_IO_EN6{slash}"
 		(at 349.25 106.68 180)
 		(effects
@@ -19424,7 +19893,7 @@
 		)
 		(uuid "ce3f8114-76ea-4567-a47e-dd519e99efbd")
 	)
-	(label "MCU_BUS_OE{slash}"
+	(label "BUS_OE{slash}"
 		(at 119.38 34.29 90)
 		(effects
 			(font
@@ -19503,6 +19972,16 @@
 			(justify left bottom)
 		)
 		(uuid "d423342b-316d-4f34-b7a1-2eb32fb34470")
+	)
+	(label "MCU_BUS_5V_ADC"
+		(at 224.79 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4328bef-27ee-4474-83e5-0e38e5ed9b64")
 	)
 	(label "MCU_A3"
 		(at 186.69 76.2 0)
@@ -19654,6 +20133,16 @@
 		)
 		(uuid "dc69441e-8d2f-43c3-ac6e-35cffd4d85cf")
 	)
+	(label "MCU_BUS_OE{slash}"
+		(at 115.57 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd87a47b-64dd-4c66-8af8-b44da13326eb")
+	)
 	(label "BUS_CLK{slash}"
 		(at 351.79 182.88 180)
 		(effects
@@ -19714,7 +20203,7 @@
 		)
 		(uuid "e1086ed1-84ba-440e-82e1-a971d82bf2c8")
 	)
-	(label "MCU_BUS_OE{slash}"
+	(label "BUS_OE{slash}"
 		(at 86.36 132.08 0)
 		(effects
 			(font
@@ -19974,8 +20463,8 @@
 		)
 		(uuid "f4d67632-9169-4c78-9393-0d05c6cc3945")
 	)
-	(label "MCU_BUS_OE{slash}"
-		(at 86.36 35.56 0)
+	(label "BUS_OE{slash}"
+		(at 77.47 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20999,7 +21488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:STM32H723VGT6")
+		(lib_id "JLCImport:STM32H723VET6")
 		(at 157.48 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -21020,7 +21509,7 @@
 				)
 			)
 		)
-		(property "Value" "STM32H723VGT6"
+		(property "Value" "STM32H723VET6"
 			(at 157.48 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21030,7 +21519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCImport:STM32H723VGT6"
+		(property "Footprint" "JLCImport:STM32H723VET6"
 			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -21041,7 +21530,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_STMicroelectronics-STM32H723VGT6_C730142.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_STMicroelectronics-STM32H723VET6_C730141.pdf"
 			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -21052,7 +21541,7 @@
 				)
 			)
 		)
-		(property "Description" "-40℃~+85℃ 1.71V~3.6V 12bit 16bit 1MB 32 Bit 550MHz 564KB 80 ARM Cortex-M7 Built-in FLASH LQFP-100(14x14) Microcontrollers (MCU/MPU/SOC) ROHS"
+		(property "Description" "-40℃~+85℃ 1.71V~3.6V 12bit 16bit 32 Bit 512KB 550MHz 564KB 80 ARM Cortex-M7 Built-in FLASH LQFP-100(14x14) Microcontrollers (MCU/MPU/SOC) ROHS"
 			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -21063,7 +21552,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C730142"
+		(property "LCSC" "C730141"
 			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -21085,7 +21574,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "STM32H723VGT6"
+		(property "Manufacturer Part" "STM32H723VET6"
 			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -21406,6 +21895,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 218.44 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f79d900-52a4-48de-bb3e-a6dbfe37611c")
+		(property "Reference" "#PWR085"
+			(at 218.44 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUS_5V"
+			(at 218.44 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 218.44 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3bbbfc7b-c842-4157-a2db-d900abce78cc")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 330.2 54.61 0)
 		(mirror y)
@@ -21479,6 +22046,121 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:0603WAF4702T5E")
+		(at 218.44 180.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12489ad8-a4a9-4209-9a15-e74612306180")
+		(property "Reference" "R34"
+			(at 220.98 179.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47kΩ"
+			(at 220.98 181.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 218.44 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF4702T5E_C25819.pdf"
+			(at 218.44 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 47kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 218.44 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25819"
+			(at 218.44 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 218.44 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF4702T5E"
+			(at 218.44 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e3e52570-48b6-4a2b-b055-cff7381d40f8")
+		)
+		(pin "1"
+			(uuid "1fe3578a-fdd6-4f35-bf05-9c05af38ba94")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -21608,8 +22290,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 43.18 30.48 0)
+		(lib_id "JLCImport:0603WAF1002T5E")
+		(at 125.73 213.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21617,10 +22299,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17c0ea28-1621-4657-894d-2858a3a831c0")
-		(property "Reference" "#PWR016"
-			(at 43.18 34.29 0)
+		(uuid "134ead4d-7afe-41c8-83ca-17dd424251b5")
+		(property "Reference" "R57"
+			(at 129.54 214.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0603WAF1002T5E"
+			(at 123.19 212.0901 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 125.73 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21630,18 +22334,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 43.18 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 30.48 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(at 125.73 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21651,8 +22345,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 43.18 30.48 0)
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 125.73 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21662,9 +22356,41 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 30.48 0)
+		(property "LCSC" "C25804"
+			(at 125.73 213.36 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 125.73 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1002T5E"
+			(at 125.73 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "10kΩ"
+			(at 129.54 213.106 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21674,12 +22400,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d08928d8-b949-4d7a-b949-ec3b3a0c389c")
+			(uuid "432e891f-1079-41ff-9491-387cf413cd57")
+		)
+		(pin "2"
+			(uuid "e37b2c24-ba15-4af9-b633-530bffa9e21b")
 		)
 		(instances
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "#PWR016")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -21926,6 +22655,84 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 82.55 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c79fa95-3634-4266-b78a-5a33ef83fdf6")
+		(property "Reference" "#PWR081"
+			(at 82.55 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUS_5V"
+			(at 82.55 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 82.55 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ec76af7-1c7a-4612-a102-fa3f637daf57")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -22513,6 +23320,131 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:0603WAF1002T5E")
+		(at 196.85 240.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21ba726c-104c-4c4e-98ba-295295f711e1")
+		(property "Reference" "R58"
+			(at 193.04 238.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0603WAF1002T5E"
+			(at 199.39 241.2999 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 196.85 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(at 196.85 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 196.85 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 196.85 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 196.85 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1002T5E"
+			(at 196.85 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "10kΩ"
+			(at 193.04 240.284 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3dd7417-9f0a-478f-b561-3a6764a001fb")
+		)
+		(pin "2"
+			(uuid "b38a6272-5e16-4d62-9b27-9e23a5e5c5e2")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 82.55 251.46 0)
 		(unit 1)
@@ -22663,6 +23595,119 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:0603WAF4702T5E")
+		(at 208.28 243.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24337033-b412-4701-b78f-5745aa8df2bb")
+		(property "Reference" "R35"
+			(at 208.28 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47kΩ"
+			(at 208.28 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 208.28 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF4702T5E_C25819.pdf"
+			(at 208.28 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 47kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 208.28 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25819"
+			(at 208.28 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 208.28 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF4702T5E"
+			(at 208.28 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "621b16b4-1c48-450b-bd9d-9b8632fb9ab8")
+		)
+		(pin "1"
+			(uuid "496732a3-079d-4f2b-aa78-8a73292f0893")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -24497,6 +25542,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 43.18 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4adf6914-4889-498b-adba-a8bc2d0b3780")
+		(property "Reference" "#PWR076"
+			(at 43.18 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUS_5V"
+			(at 43.18 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3392fae-ea1d-48ed-9b88-80745be357ae")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 21.59 69.85 0)
 		(unit 1)
@@ -24568,6 +25691,120 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CL10A225KO8NNNC_1")
+		(lib_id "JLCImport:CL10A225KO8NNNC")
+		(at 208.28 247.65 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d4faa88-653f-495b-86d1-c9d23cb42f95")
+		(property "Reference" "C7"
+			(at 208.28 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 208.28 252.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 208.28 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A225KO8NNNC_C23630.pdf"
+			(at 208.28 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16V 2.2uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 208.28 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23630"
+			(at 208.28 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 208.28 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL10A225KO8NNNC"
+			(at 208.28 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8ce4c15a-52fc-47e0-8b8d-a5c532a5f892")
+		)
+		(pin "1"
+			(uuid "c6d27d0d-5133-494b-b383-7c4956a34713")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -25402,84 +26639,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 109.22 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5920b61c-98b4-4896-a680-4f933c9b76fe")
-		(property "Reference" "#PWR072"
-			(at 109.22 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 109.22 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 109.22 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e8eeafb-8828-4267-ba1a-f1c69f756720")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 91.44 158.75 0)
 		(unit 1)
 		(body_style 1)
@@ -25558,7 +26717,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 82.55 111.76 0)
+		(at 82.55 212.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25567,9 +26726,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5f5b56b0-3f69-459c-833c-1392e30788de")
-		(property "Reference" "#PWR054"
-			(at 82.55 115.57 0)
+		(uuid "5d4b0058-8665-4c9c-af31-4f0fa445756d")
+		(property "Reference" "#PWR083"
+			(at 82.55 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25579,8 +26738,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 82.55 106.68 0)
+		(property "Value" "BUS_5V"
+			(at 82.55 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25590,7 +26749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 111.76 0)
+			(at 82.55 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25601,7 +26760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 111.76 0)
+			(at 82.55 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25612,7 +26771,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 82.55 111.76 0)
+			(at 82.55 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25623,12 +26782,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3aceb28-8d3b-473b-a553-3bf407630dab")
+			(uuid "ef34092a-3d68-4df5-acc5-282cee9eaf8a")
 		)
 		(instances
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "#PWR054")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -26155,6 +27314,131 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:0603WAF1003T5E")
+		(at 218.44 190.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61cc507b-c478-46f6-9cb3-954976f9ec0e")
+		(property "Reference" "R33"
+			(at 220.98 189.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0603WAF1003T5E"
+			(at 220.98 191.7699 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 218.44 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+			(at 218.44 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 218.44 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 218.44 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 218.44 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1003T5E"
+			(at 218.44 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "100kΩ"
+			(at 223.774 190.754 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d06d207a-6dcb-43ea-a312-43d98d0736ad")
+		)
+		(pin "1"
+			(uuid "fed4b158-d686-47f8-881d-41e0530c8ba3")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 323.85 24.13 0)
 		(mirror y)
@@ -26228,6 +27512,84 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 43.18 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64f7d1a3-8fc2-482d-ae61-34d3f394e7a5")
+		(property "Reference" "#PWR078"
+			(at 43.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUS_5V"
+			(at 43.18 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfcfe86e-1ca0-4d61-a6fc-c6f666832d1b")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -26497,6 +27859,84 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 109.22 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68ff99dc-f109-447c-9141-47cc36d1111c")
+		(property "Reference" "#PWR084"
+			(at 109.22 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUS_5V"
+			(at 109.22 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 109.22 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8906d1b0-be73-4dfa-ab71-df5bcb74ee5e")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -27210,6 +28650,124 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:AO3400A")
+		(at 130.81 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74d1dbce-a914-4360-ae25-d1c7d094b116")
+		(property "Reference" "Q1"
+			(at 138.43 207.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 138.43 209.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:AO3400A"
+			(at 130.81 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
+			(at 130.81 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1 N-channel 1.45V 1.4W 30V 48mΩ@2.5V 5.7A 50pF 630pF 75pF 7nC@10V N-Channel SOT-23 MOSFETs ROHS"
+			(at 130.81 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 130.81 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 130.81 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "AO3400A"
+			(at 130.81 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8864b181-ab09-4378-b9d7-33b941041537")
+		)
+		(pin "2"
+			(uuid "13aceb66-a6b0-414f-b571-8cc7d5d6f1c4")
+		)
+		(pin "1"
+			(uuid "9d387d27-0be9-4348-991c-1d9a971aeb2a")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -28391,6 +29949,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 218.44 195.58 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "816772f4-9e2c-4ca9-9710-0c3652c58a8a")
+		(property "Reference" "#PWR048"
+			(at 218.44 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52487693-4c34-4428-be57-5a0a96a684ad")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 69.85 250.19 0)
 		(unit 1)
 		(body_style 1)
@@ -29039,6 +30676,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 246.38 76.2 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d0f5746-64d5-418b-a30b-7cb1b8d0f46b")
+		(property "Reference" "#PWR040"
+			(at 246.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 246.38 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 246.38 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ebef7df-6c1f-4273-8254-026f47043c7b")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:0603WAF1000T5E")
 		(at 304.8 214.63 0)
 		(unit 1)
@@ -29234,84 +30950,6 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 82.55 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91d2de86-4550-4171-ba1d-c788b40ed1d4")
-		(property "Reference" "#PWR050"
-			(at 82.55 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 82.55 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 82.55 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e9584fc-a18a-4dd8-8f65-a54d825a3b1d")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -29613,84 +31251,6 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 16.51 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9480c18d-f830-4866-906d-ffa6ce06dd0c")
-		(property "Reference" "#PWR060"
-			(at 16.51 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 16.51 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 16.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 16.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 16.51 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41733ed3-90d7-4429-8664-bb8b2f812dc1")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -30961,84 +32521,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 246.38 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a38798bf-f994-4eef-918c-70dacecfc906")
-		(property "Reference" "#PWR040"
-			(at 246.38 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 246.38 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 246.38 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1510eaae-9f84-43a2-9aab-d0b33e73df1d")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 39.37 264.16 0)
 		(unit 1)
@@ -31453,129 +32935,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:0603WAF1000T5E")
-		(at 196.85 240.03 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a95aa6d8-c965-4c3b-8e66-ae2cf975f345")
-		(property "Reference" "R30"
-			(at 193.04 240.538 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0603WAF1000T5E"
-			(at 200.66 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 196.85 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
-			(at 196.85 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 196.85 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22775"
-			(at 196.85 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 196.85 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "0603WAF1000T5E"
-			(at 196.85 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field8" "100Ω"
-			(at 194.564 240.284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a0f328c-448b-4179-8465-1e7b5ba385b0")
-		)
-		(pin "2"
-			(uuid "039a84be-07e9-455c-b79e-14a2ae6da7b9")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 182.88 0)
 		(unit 1)
@@ -31770,6 +33129,84 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 16.51 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adebacd8-df61-4f08-b589-3af146f79ab5")
+		(property "Reference" "#PWR080"
+			(at 16.51 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUS_5V"
+			(at 16.51 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 16.51 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5614c34-b454-4919-a349-988d165e83f5")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -32811,84 +34248,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 43.18 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5bbcd67-c7ad-47bf-a93f-fd5ae4791771")
-		(property "Reference" "#PWR023"
-			(at 43.18 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 43.18 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "686e164c-2f5f-4e21-9f27-2dc5b573adfe")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 190.5 38.1 0)
 		(mirror y)
@@ -33226,10 +34585,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b83ef339-fbef-4362-ae7e-f2b70c01352d")
 		(property "Reference" "Q4"
-			(at 201.93 252.7299 0)
+			(at 198.628 258.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33240,7 +34598,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 201.93 255.2699 0)
+			(at 198.628 260.858 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35340,6 +36698,129 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:0603WAF1001T5E")
+		(at 120.65 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4426965-fcf2-4961-b46f-fedd84223b67")
+		(property "Reference" "R32"
+			(at 120.65 205.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF1001T5E"
+			(at 120.65 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 120.65 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
+			(at 120.65 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 120.65 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 120.65 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 120.65 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1001T5E"
+			(at 120.65 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "1kΩ"
+			(at 120.65 204.216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "521c16c4-6766-4479-8739-5760ea071c6c")
+		)
+		(pin "2"
+			(uuid "890eba8c-4b7c-4fd8-8fe1-7250633eacb5")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:0603WAF1000T5E")
 		(at 304.8 232.41 0)
 		(unit 1)
@@ -35457,6 +36938,84 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 43.18 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8152656-2a26-4771-9b2c-37f255c70538")
+		(property "Reference" "#PWR077"
+			(at 43.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUS_5V"
+			(at 43.18 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e6032ce-9df8-413e-9b51-def6463d51a0")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -35659,6 +37218,84 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 82.55 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db410fec-5129-4903-8b7a-3bd439ccf5ce")
+		(property "Reference" "#PWR082"
+			(at 82.55 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUS_5V"
+			(at 82.55 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 82.55 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4e56230-b40b-4ab3-80e1-20a1fd043cba")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -36258,6 +37895,84 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 43.18 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e54abff3-d068-4512-a29a-e25afba3586d")
+		(property "Reference" "#PWR079"
+			(at 43.18 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUS_5V"
+			(at 43.18 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "913e8233-0a34-461a-9a33-acd337d8cbd0")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -37048,162 +38763,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 43.18 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2811005-4f73-42c4-8040-46a56eccf762")
-		(property "Reference" "#PWR020"
-			(at 43.18 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 43.18 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7aadd252-bcda-43b8-b677-c22a9daf6ff6")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 43.18 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f298dda2-71ee-4ada-9783-16c2f42bff8d")
-		(property "Reference" "#PWR031"
-			(at 43.18 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 43.18 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63a66906-f562-43dc-a3fe-4e0e301aee32")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLCImport:0603WAF1000T5E")
 		(at 304.8 199.39 0)
 		(unit 1)
@@ -37882,84 +39441,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 82.55 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f99c38c3-98da-443b-8bf5-0f2c7b1cc68c")
-		(property "Reference" "#PWR051"
-			(at 82.55 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 82.55 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 82.55 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30d7d2d3-662c-4567-8d41-b494d6dd6f1b")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 251.46 191.77 0)
 		(mirror y)
@@ -38363,6 +39844,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 133.35 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fda4507c-d6d2-4068-9674-dfb19744805b")
+		(property "Reference" "#PWR031"
+			(at 133.35 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8c48071-ae8e-42d6-9e55-5b3ac8156959")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:0603WAF1000T5E")
 		(at 304.8 204.47 0)
 		(unit 1)
@@ -38480,131 +40039,6 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:0603WAF1003T5E")
-		(at 208.28 241.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fe93462b-a86c-4e88-957e-27c7cd4aff5c")
-		(property "Reference" "R29"
-			(at 209.5501 243.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0603WAF1003T5E"
-			(at 207.0101 243.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 208.28 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
-			(at 208.28 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 208.28 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25803"
-			(at 208.28 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 208.28 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "0603WAF1003T5E"
-			(at 208.28 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field8" "100kΩ"
-			(at 208.026 246.634 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "be81c3f2-f63e-41e3-8335-055970103a24")
-		)
-		(pin "1"
-			(uuid "31baa0fd-d693-4803-aef1-373cb82fc1f5")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "R29")
 					(unit 1)
 				)
 			)
