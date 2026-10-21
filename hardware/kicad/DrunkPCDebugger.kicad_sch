@@ -326,21 +326,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:25TQC22MYFB"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "JLCImport:0603WAF1000T5E"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 2 0)
+			(property "Reference" "R"
+				(at 0 3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -349,8 +345,8 @@
 					)
 				)
 			)
-			(property "Value" "25TQC22MYFB"
-				(at 0 -2 0)
+			(property "Value" "0603WAF1000T5E"
+				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -359,7 +355,7 @@
 					)
 				)
 			)
-			(property "Footprint" "JLCImport:25TQC22MYFB"
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -370,7 +366,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401241128_PANASONIC-25TQC22MYFB_C3018703.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -381,7 +377,7 @@
 					)
 				)
 			)
-			(property "Description" "-55℃~+105℃ 100mΩ@100kHz 22uF 25V ±20% SMD,2.8x3.5mm Tantalum Capacitors ROHS"
+			(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -392,7 +388,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C3018703"
+			(property "LCSC" "C22775"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -403,7 +399,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "PANASONIC"
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -414,7 +410,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "25TQC22MYFB"
+			(property "Manufacturer Part" "0603WAF1000T5E"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -425,7 +421,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "25TQC22MYFB C3018703 CAP-SMD_L3.2-W2.8-FD PANASONIC"
+			(property "ki_keywords" "0603WAF1000T5E C22775 R0603 UNI-ROYAL(Uniroyal Elec)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -436,77 +432,644 @@
 					)
 				)
 			)
-			(symbol "25TQC22MYFB_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
+			(symbol "0603WAF1000T5E_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.286 1.27) (xy -1.27 1.27)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:0603WAF1001T5E"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF1001T5E"
+				(at 0 -3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 100mW 1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C21190"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "0603WAF1001T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "0603WAF1001T5E C21190 R0603 UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603WAF1001T5E_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.778 1.778) (xy -1.778 0.762)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:0603WAF1002T5E"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF1002T5E"
+				(at 0 -3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C25804"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "0603WAF1002T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "0603WAF1002T5E C25804 R0603 UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603WAF1002T5E_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.508 1.778) (xy -0.508 -1.778)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:0603WAF1003T5E"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF1003T5E"
+				(at 0 -3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C25803"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "0603WAF1003T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "0603WAF1003T5E C25803 R0603 UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603WAF1003T5E_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.508 0) (xy 2.54 0)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:0603WAF5101T5E"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF5101T5E"
+				(at 0 -3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5101T5E_C23186.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C23186"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "0603WAF5101T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "0603WAF5101T5E C23186 R0603 UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603WAF5101T5E_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.1278 -1.7526)
-					(mid 0.4216 0.0211)
-					(end 1.1506 1.7856)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin input line
@@ -2476,7 +3039,201 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:CC0603KRX7R0BB103"
+		(symbol "JLCImport:CC0603KRX7R9BB104"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CC0603KRX7R9BB104"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C14663"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "CC0603KRX7R9BB104"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C0603 C14663 CC0603KRX7R9BB104 YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CC0603KRX7R9BB104_0_1"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:CL10A225KO8NNNC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2499,7 +3256,7 @@
 					)
 				)
 			)
-			(property "Value" "CC0603KRX7R0BB103"
+			(property "Value" "CL10A225KO8NNNC"
 				(at 0 -2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2520,7 +3277,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0603KRX7R0BB103_C107059.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A225KO8NNNC_C23630.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2531,7 +3288,7 @@
 					)
 				)
 			)
-			(property "Description" "100V 10nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(property "Description" "16V 2.2uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2542,7 +3299,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C107059"
+			(property "LCSC" "C23630"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2553,7 +3310,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "YAGEO"
+			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2564,7 +3321,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "CC0603KRX7R0BB103"
+			(property "Manufacturer Part" "CL10A225KO8NNNC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2575,7 +3332,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "C0603 C107059 CC0603KRX7R0BB103 YAGEO"
+			(property "ki_keywords" "C0603 C23630 CL10A225KO8NNNC Samsung Electro-Mechanics"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2586,7 +3343,7 @@
 					)
 				)
 			)
-			(symbol "CC0603KRX7R0BB103_0_1"
+			(symbol "CL10A225KO8NNNC_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy -0.508 0)
@@ -3070,6 +3827,204 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:CL21A106KAYNNNE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CL21A106KAYNNNE"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10uF 25V X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C15850"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "CL21A106KAYNNNE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C0805 C15850 CL21A106KAYNNNE Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CL21A106KAYNNNE_0_1"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:EEFCX0J101R"
 			(pin_numbers
 				(hide yes)
@@ -3260,402 +4215,6 @@
 				(pin unspecified line
 					(at 5.08 0 180)
 					(length 4.826)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JLCImport:GCM21BR71A106KE22L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 2 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GCM21BR71A106KE22L"
-				(at 0 -2 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:GCM21BR71A106KE22L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201230_Murata-Electronics-GCM21BR71A106KE22L_C126586.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10V 10uF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C126586"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Murata Electronics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "GCM21BR71A106KE22L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C0805 C126586 GCM21BR71A106KE22L Murata Electronics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GCM21BR71A106KE22L_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.032) (xy -0.508 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JLCImport:GRM21BR71A225KA01L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 2 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GRM21BR71A225KA01L"
-				(at 0 -2 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008031207_Murata-Electronics-GRM21BR71A225KA01L_C117966.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10V 2.2uF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C117966"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Murata Electronics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "GRM21BR71A225KA01L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C0805 C117966 GRM21BR71A225KA01L Murata Electronics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GRM21BR71A225KA01L_0_1"
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -6510,6 +7069,228 @@
 						)
 					)
 					(number "100"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:TAJB107K006RNJ"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TAJB107K006RNJ"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2111161030_Kyocera-AVX-TAJB107K006RNJ_C16133.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+125℃ 1.7Ω@100kHz 100uF 6.3V ±10% CASE-B-3528-21(mm) Tantalum Capacitors ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C16133"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "--"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "TAJB107K006RNJ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "-- C16133 CASE-B_3528 TAJB107K006RNJ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TAJB107K006RNJ_0_1"
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 1.524) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.016) (xy 1.524 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10180,298 +10961,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:0603WAF1000T5E"
-			(pin_names (offset 1.016))
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R" (at 0 3.016 0)
-				(effects (font (size 1.27 1.27)))
-			)
-			(property "Value" "0603WAF1000T5E" (at 0 -3.016 0)
-				(effects (font (size 1.27 1.27)))
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Description" "-55℃~+155℃ 100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "ki_keywords" "0603WAF1000T5E C22775 R0603 UNI-ROYAL(Uniroyal Elec)" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "LCSC" "C22775" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Manufacturer Part" "0603WAF1000T5E" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(symbol "0603WAF1000T5E_0_1"
-				(rectangle (start -2.54 1.016) (end 2.54 -1.016)
-					(stroke (width 0.254) (type solid))
-					(fill (type background))
-				)
-				(pin input line (at 5.08 0 180) (length 2.54)
-					(name "2" (effects (font (size 1.27 1.27)) hide))
-					(number "2" (effects (font (size 1.27 1.27)) hide))
-				)
-				(pin input line (at -5.08 0 0) (length 2.54)
-					(name "1" (effects (font (size 1.27 1.27)) hide))
-					(number "1" (effects (font (size 1.27 1.27)) hide))
-				)
-			)
-		)
-		(symbol "JLCImport:0603WAF1001T5E"
-			(pin_names (offset 1.016))
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R" (at 0 3.016 0)
-				(effects (font (size 1.27 1.27)))
-			)
-			(property "Value" "0603WAF1001T5E" (at 0 -3.016 0)
-				(effects (font (size 1.27 1.27)))
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Description" "-55℃~+155℃ 100mW 1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "ki_keywords" "0603WAF1001T5E C21190 R0603 UNI-ROYAL(Uniroyal Elec)" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "LCSC" "C21190" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Manufacturer Part" "0603WAF1001T5E" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(symbol "0603WAF1001T5E_0_1"
-				(rectangle (start -2.54 1.016) (end 2.54 -1.016)
-					(stroke (width 0.254) (type solid))
-					(fill (type background))
-				)
-				(pin input line (at 5.08 0 180) (length 2.54)
-					(name "2" (effects (font (size 1.27 1.27)) hide))
-					(number "2" (effects (font (size 1.27 1.27)) hide))
-				)
-				(pin input line (at -5.08 0 0) (length 2.54)
-					(name "1" (effects (font (size 1.27 1.27)) hide))
-					(number "1" (effects (font (size 1.27 1.27)) hide))
-				)
-			)
-		)
-		(symbol "JLCImport:0603WAF1002T5E"
-			(pin_names (offset 1.016))
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R" (at 0 3.016 0)
-				(effects (font (size 1.27 1.27)))
-			)
-			(property "Value" "0603WAF1002T5E" (at 0 -3.016 0)
-				(effects (font (size 1.27 1.27)))
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "ki_keywords" "0603WAF1002T5E C25804 R0603 UNI-ROYAL(Uniroyal Elec)" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "LCSC" "C25804" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Manufacturer Part" "0603WAF1002T5E" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(symbol "0603WAF1002T5E_0_1"
-				(rectangle (start -2.54 1.016) (end 2.54 -1.016)
-					(stroke (width 0.254) (type solid))
-					(fill (type background))
-				)
-				(pin input line (at 5.08 0 180) (length 2.54)
-					(name "2" (effects (font (size 1.27 1.27)) hide))
-					(number "2" (effects (font (size 1.27 1.27)) hide))
-				)
-				(pin input line (at -5.08 0 0) (length 2.54)
-					(name "1" (effects (font (size 1.27 1.27)) hide))
-					(number "1" (effects (font (size 1.27 1.27)) hide))
-				)
-			)
-		)
-		(symbol "JLCImport:0603WAF1003T5E"
-			(pin_names (offset 1.016))
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R" (at 0 3.016 0)
-				(effects (font (size 1.27 1.27)))
-			)
-			(property "Value" "0603WAF1003T5E" (at 0 -3.016 0)
-				(effects (font (size 1.27 1.27)))
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Description" "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "ki_keywords" "0603WAF1003T5E C25803 R0603 UNI-ROYAL(Uniroyal Elec)" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "LCSC" "C25803" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Manufacturer Part" "0603WAF1003T5E" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(symbol "0603WAF1003T5E_0_1"
-				(rectangle (start -2.54 1.016) (end 2.54 -1.016)
-					(stroke (width 0.254) (type solid))
-					(fill (type background))
-				)
-				(pin input line (at 5.08 0 180) (length 2.54)
-					(name "2" (effects (font (size 1.27 1.27)) hide))
-					(number "2" (effects (font (size 1.27 1.27)) hide))
-				)
-				(pin input line (at -5.08 0 0) (length 2.54)
-					(name "1" (effects (font (size 1.27 1.27)) hide))
-					(number "1" (effects (font (size 1.27 1.27)) hide))
-				)
-			)
-		)
-		(symbol "JLCImport:0603WAF5101T5E"
-			(pin_names (offset 1.016))
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R" (at 0 3.016 0)
-				(effects (font (size 1.27 1.27)))
-			)
-			(property "Value" "0603WAF5101T5E" (at 0 -3.016 0)
-				(effects (font (size 1.27 1.27)))
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5101T5E_C23186.pdf" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Description" "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "ki_keywords" "0603WAF5101T5E C23186 R0603 UNI-ROYAL(Uniroyal Elec)" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "LCSC" "C23186" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Manufacturer Part" "0603WAF5101T5E" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(symbol "0603WAF5101T5E_0_1"
-				(rectangle (start -2.54 1.016) (end 2.54 -1.016)
-					(stroke (width 0.254) (type solid))
-					(fill (type background))
-				)
-				(pin input line (at 5.08 0 180) (length 2.54)
-					(name "2" (effects (font (size 1.27 1.27)) hide))
-					(number "2" (effects (font (size 1.27 1.27)) hide))
-				)
-				(pin input line (at -5.08 0 0) (length 2.54)
-					(name "1" (effects (font (size 1.27 1.27)) hide))
-					(number "1" (effects (font (size 1.27 1.27)) hide))
-				)
-			)
-		)
-		(symbol "JLCImport:CC0603KRX7R9BB104"
-			(pin_names (offset 1.016))
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C" (at 0 2 0)
-				(effects (font (size 1.27 1.27)))
-			)
-			(property "Value" "CC0603KRX7R9BB104" (at 0 -2 0)
-				(effects (font (size 1.27 1.27)))
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "ki_keywords" "C0603 C14663 CC0603KRX7R9BB104 YAGEO" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "LCSC" "C14663" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Manufacturer" "YAGEO" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(property "Manufacturer Part" "CC0603KRX7R9BB104" (at 0 0 0)
-				(effects (font (size 1.27 1.27)) hide)
-			)
-			(symbol "CC0603KRX7R9BB104_0_1"
-				(polyline
-					(pts (xy -0.508 -2.032) (xy -0.508 2.032))
-					(stroke (width 0.254) (type solid))
-					(fill (type none))
-				)
-				(polyline
-					(pts (xy 2.54 0) (xy 0.508 0))
-					(stroke (width 0.254) (type solid))
-					(fill (type none))
-				)
-				(polyline
-					(pts (xy 0.508 2.032) (xy 0.508 -2.032))
-					(stroke (width 0.254) (type solid))
-					(fill (type none))
-				)
-				(polyline
-					(pts (xy -0.508 0) (xy -2.54 0))
-					(stroke (width 0.254) (type solid))
-					(fill (type none))
-				)
-				(pin unspecified line (at -5.08 0 0) (length 2.54)
-					(name "1" (effects (font (size 1.27 1.27)) hide))
-					(number "1" (effects (font (size 1.27 1.27)) hide))
-				)
-				(pin unspecified line (at 5.08 0 180) (length 2.54)
-					(name "2" (effects (font (size 1.27 1.27)) hide))
-					(number "2" (effects (font (size 1.27 1.27)) hide))
-				)
-			)
-		)
 	)
 	(text "SWD"
 		(exclude_from_sim no)
@@ -10599,18 +11088,6 @@
 		(uuid "21155951-cee6-48b0-bb4f-8b88ce678b35")
 	)
 	(junction
-		(at 69.85 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28c3508f-7af3-48c0-97ed-d00300842a53")
-	)
-	(junction
-		(at 187.96 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "299a8f9c-afc6-449d-bfc1-ba7252491526")
-	)
-	(junction
 		(at 274.32 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10633,6 +11110,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33acd7ed-1efe-49eb-b8a5-7f775c59d1b4")
+	)
+	(junction
+		(at 187.96 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "345bf7e3-5baf-44b3-a1bf-68c38ed9f864")
 	)
 	(junction
 		(at 355.6 175.26)
@@ -10741,6 +11224,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cb629e0-6eb1-4e99-8e7e-c74b25d8e70a")
+	)
+	(junction
+		(at 69.85 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cb85591-1f7b-4570-9463-95dd97ca2589")
 	)
 	(junction
 		(at 340.36 25.4)
@@ -10855,12 +11344,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1607bc7-e7b6-4f05-a3d2-30ae59535baa")
-	)
-	(junction
-		(at 261.62 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3989e6f-4ecd-45f8-93f4-d8adc374c58f")
 	)
 	(junction
 		(at 304.8 33.02)
@@ -11013,12 +11496,6 @@
 		(uuid "e2d3e83b-c5b4-46b0-a77b-d546c97e71f5")
 	)
 	(junction
-		(at 227.33 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2dd4d93-3e54-42a3-a04c-e6edbd3b4324")
-	)
-	(junction
 		(at 191.77 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11061,10 +11538,22 @@
 		(uuid "ef8219a2-9b30-4253-9599-b1e602d0278c")
 	)
 	(junction
+		(at 261.62 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa07d6a3-aec1-4640-a77a-9248429857a3")
+	)
+	(junction
 		(at 335.28 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa146db6-9f4e-4adf-b066-6eb6d34607b9")
+	)
+	(junction
+		(at 227.33 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb32213b-ac51-43a8-ac19-daf31afaf33d")
 	)
 	(junction
 		(at 144.78 172.72)
@@ -11916,6 +12405,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 172.72) (xy 194.31 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218ac6bf-3635-4ebc-b882-17448ca5f7e7")
+	)
+	(wire
+		(pts
 			(xy 39.37 208.28) (xy 39.37 215.9)
 		)
 		(stroke
@@ -11963,16 +12462,6 @@
 			(type default)
 		)
 		(uuid "22fe1e94-a70b-480e-b455-facd678866b6")
-	)
-	(wire
-		(pts
-			(xy 261.62 189.23) (xy 261.62 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "236d2ebb-a2d4-400b-9756-64bbe5ee2301")
 	)
 	(wire
 		(pts
@@ -12336,16 +12825,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 146.05) (xy 227.33 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f3bf7bd-d223-4a23-bb35-a8a8ac0c5f48")
-	)
-	(wire
-		(pts
 			(xy 186.69 76.2) (xy 177.8 76.2)
 		)
 		(stroke
@@ -12616,16 +13095,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 240.03) (xy 69.85 240.03)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "3c538e9c-1d7a-4b4c-846e-9264a20da9e2")
-	)
-	(wire
-		(pts
 			(xy 370.84 93.98) (xy 370.84 96.52)
 		)
 		(stroke
@@ -12826,6 +13295,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 158.75) (xy 227.33 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44437b3c-a1ce-4abc-bcc1-69d2bf97ec1b")
+	)
+	(wire
+		(pts
 			(xy 40.64 95.25) (xy 45.72 95.25)
 		)
 		(stroke
@@ -12873,6 +13352,16 @@
 			(type default)
 		)
 		(uuid "4676e7a2-ef22-49d0-9edb-1dd94f9a5929")
+	)
+	(wire
+		(pts
+			(xy 227.33 146.05) (xy 227.33 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4680c2f1-4c29-48a9-9746-ce6e7eb3ef25")
 	)
 	(wire
 		(pts
@@ -13056,7 +13545,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 240.03) (xy 82.55 240.03)
+			(xy 49.53 240.03) (xy 69.85 240.03)
 		)
 		(stroke
 			(width 0)
@@ -13273,6 +13762,16 @@
 			(type default)
 		)
 		(uuid "5736402c-4fe6-4e81-b1ac-ae094cf3e35f")
+	)
+	(wire
+		(pts
+			(xy 187.96 172.72) (xy 187.96 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5783d980-14ee-4fb2-adce-a7d09a33ee93")
 	)
 	(wire
 		(pts
@@ -13966,16 +14465,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 157.48) (xy 227.33 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750525d3-1f7d-422e-98f3-ec7b10671363")
-	)
-	(wire
-		(pts
 			(xy 370.84 223.52) (xy 373.38 223.52)
 		)
 		(stroke
@@ -14536,16 +15025,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 146.05) (xy 227.33 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8712771b-9c09-43ac-9386-44a7339b20f4")
-	)
-	(wire
-		(pts
 			(xy 45.72 58.42) (xy 43.18 58.42)
 		)
 		(stroke
@@ -14766,7 +15245,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 240.03) (xy 151.13 242.57)
+			(xy 151.13 240.03) (xy 151.13 245.11)
 		)
 		(stroke
 			(width 0)
@@ -15176,6 +15655,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 172.72) (xy 194.31 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c976fa-cf74-41e5-968d-7e7ca46988cd")
+	)
+	(wire
+		(pts
 			(xy 135.89 252.73) (xy 151.13 252.73)
 		)
 		(stroke
@@ -15213,6 +15702,16 @@
 			(type default)
 		)
 		(uuid "a8002f58-9a29-4c7e-ac29-1101d117e8cb")
+	)
+	(wire
+		(pts
+			(xy 69.85 240.03) (xy 82.55 240.03)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a852deca-83d2-4895-a13e-705b0cb45583")
 	)
 	(wire
 		(pts
@@ -15616,6 +16115,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 146.05) (xy 229.87 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c16e030a-62c2-44d7-86ae-c1c7cf4db435")
+	)
+	(wire
+		(pts
 			(xy 186.69 160.02) (xy 177.8 160.02)
 		)
 		(stroke
@@ -16006,7 +16515,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 146.05) (xy 229.87 146.05)
+			(xy 222.25 146.05) (xy 227.33 146.05)
 		)
 		(stroke
 			(width 0)
@@ -16043,16 +16552,6 @@
 			(type default)
 		)
 		(uuid "df703b2d-b6b7-4b09-96fe-def379332862")
-	)
-	(wire
-		(pts
-			(xy 187.96 172.72) (xy 194.31 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfa344a0-1543-402d-98ea-7da6a77d81eb")
 	)
 	(wire
 		(pts
@@ -16713,16 +17212,6 @@
 			(type default)
 		)
 		(uuid "fd3d18f9-7394-4af4-9ff6-8410f26413b0")
-	)
-	(wire
-		(pts
-			(xy 69.85 247.65) (xy 69.85 250.19)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "fd78ad91-80cd-4676-aa2a-f5b03ddffb6e")
 	)
 	(wire
 		(pts
@@ -19575,12 +20064,12 @@
 		(uuid "fea6eb2e-6687-40fb-ad6d-c8fb7380bb08")
 	)
 	(label "MCU_BUS_PWR"
-		(at 175.26 251.46 180)
+		(at 175.26 251.46 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "feb05ece-3f9f-4a85-87f5-e80a44f1cf70")
 	)
@@ -20934,129 +21423,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:GRM21BR71A225KA01L")
-		(at 194.31 177.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15bdf318-4cc1-4cd6-9af6-6ba8d51ec5a7")
-		(property "Reference" "C4"
-			(at 201.93 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM21BR71A225KA01L"
-			(at 199.39 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 194.31 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008031207_Murata-Electronics-GRM21BR71A225KA01L_C117966.pdf"
-			(at 194.31 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10V 2.2uF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 194.31 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C117966"
-			(at 194.31 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 194.31 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "GRM21BR71A225KA01L"
-			(at 194.31 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field8" "2.2uF"
-			(at 198.374 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "acde539d-2361-4da4-93c3-b5c5c79dcb63")
-		)
-		(pin "2"
-			(uuid "e223480b-aed3-4cdb-af13-dc8324f9b38d")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 43.18 30.48 0)
 		(unit 1)
@@ -21401,131 +21767,6 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:CC0603KRX7R0BB103")
-		(at 261.62 185.42 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "192f5e65-bc1e-4b13-9e0a-61ce154f0a71")
-		(property "Reference" "C6"
-			(at 257.81 186.6901 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CC0603KRX7R0BB103"
-			(at 257.81 184.1501 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 261.62 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0603KRX7R0BB103_C107059.pdf"
-			(at 261.62 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100V 10nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 261.62 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C107059"
-			(at 261.62 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 261.62 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "CC0603KRX7R0BB103"
-			(at 261.62 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field8" "10nF"
-			(at 256.032 184.658 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b85d79a3-5cd1-4e55-8ec6-c920b85ca719")
-		)
-		(pin "2"
-			(uuid "b4e63643-2d87-4ed7-a80e-882c77739cae")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -22714,8 +22955,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:CC0603KRX7R0BB103")
-		(at 227.33 153.67 270)
+		(lib_id "JLCImport:CC0603KRX7R9BB104")
+		(at 227.33 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22723,20 +22964,19 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3663c6dd-4b45-4b3b-8676-8c80d4a6c5a6")
-		(property "Reference" "C5"
-			(at 223.52 154.9401 90)
+		(uuid "36f7181d-051d-41b7-9b01-3ffa1e319861")
+		(property "Reference" "C75"
+			(at 221.996 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "CC0603KRX7R0BB103"
-			(at 223.52 152.4001 90)
+		(property "Value" "CC0603KRX7R9BB104"
+			(at 222.25 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22744,7 +22984,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -22758,7 +22997,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0603KRX7R0BB103_C107059.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 227.33 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -22769,7 +23008,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 10nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 227.33 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -22780,7 +23019,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C107059"
+		(property "LCSC" "C14663"
 			(at 227.33 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -22802,7 +23041,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CC0603KRX7R0BB103"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 227.33 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -22813,8 +23052,8 @@
 				)
 			)
 		)
-		(property "Field8" "10nF"
-			(at 221.742 152.908 90)
+		(property "Field8" "100nF"
+			(at 223.774 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22823,16 +23062,16 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "53e4dd41-0b10-4672-94e9-db7df7a362f7")
-		)
 		(pin "2"
-			(uuid "9e8f69b9-8de2-4695-bcd5-71362b13dbfc")
+			(uuid "a8bcc75a-015c-4cf6-abf2-dd858fbbc91e")
+		)
+		(pin "1"
+			(uuid "96d0423c-0d72-4033-a642-5e27799dffcd")
 		)
 		(instances
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "C5")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -25268,129 +25507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:25TQC22MYFB")
-		(at 151.13 247.65 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "59ab33b7-2056-48bf-a5a6-8f9c3e962230")
-		(property "Reference" "C9"
-			(at 154.432 247.904 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "25TQC22MYFB"
-			(at 154.94 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCImport:25TQC22MYFB"
-			(at 151.13 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401241128_PANASONIC-25TQC22MYFB_C3018703.pdf"
-			(at 151.13 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+105℃ 100mΩ@100kHz 22uF 25V ±20% SMD,2.8x3.5mm Tantalum Capacitors ROHS"
-			(at 151.13 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C3018703"
-			(at 151.13 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "PANASONIC"
-			(at 151.13 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "25TQC22MYFB"
-			(at 151.13 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field8" "22uF"
-			(at 154.178 250.444 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e63df31-b346-466a-89d4-2cf46dc6c92c")
-		)
-		(pin "2"
-			(uuid "560c7491-2216-43bd-baf6-11cff36de0a1")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 91.44 158.75 0)
 		(unit 1)
@@ -26217,6 +26333,120 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:CL10A225KO8NNNC")
+		(at 187.96 179.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67a4b67f-486a-4474-9a63-5684506b1641")
+		(property "Reference" "C5"
+			(at 185.166 177.038 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF 16V"
+			(at 186.69 180.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 187.96 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A225KO8NNNC_C23630.pdf"
+			(at 187.96 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16V 2.2uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 187.96 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23630"
+			(at 187.96 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 187.96 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL10A225KO8NNNC"
+			(at 187.96 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f23f41b0-e191-444e-85a3-47e86b0091dd")
+		)
+		(pin "1"
+			(uuid "d148af57-ba6f-49f1-be0a-36dc9110645c")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -29975,8 +30205,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:GCM21BR71A106KE22L")
-		(at 69.85 243.84 90)
+		(lib_id "JLCImport:TAJB107K006RNJ")
+		(at 151.13 248.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29984,9 +30214,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "98357393-8de6-4a8f-9119-2a23caf269b6")
-		(property "Reference" "C39"
-			(at 73.66 242.5699 90)
+		(fields_autoplaced yes)
+		(uuid "96915bf5-4a76-4c38-99db-3988043380f2")
+		(property "Reference" "C3"
+			(at 154.94 247.0149 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29996,9 +30227,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GCM21BR71A106KE22L"
-			(at 73.66 245.1099 90)
-			(hide yes)
+		(property "Value" "100uF 6.3V"
+			(at 154.94 249.5549 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30008,8 +30238,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "JLCImport:GCM21BR71A106KE22L"
-			(at 69.85 243.84 0)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
+			(at 151.13 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30019,8 +30249,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810201230_Murata-Electronics-GCM21BR71A106KE22L_C126586.pdf"
-			(at 69.85 243.84 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2111161030_Kyocera-AVX-TAJB107K006RNJ_C16133.pdf"
+			(at 151.13 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30030,8 +30260,8 @@
 				)
 			)
 		)
-		(property "Description" "10V 10uF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 69.85 243.84 0)
+		(property "Description" "-55℃~+125℃ 1.7Ω@100kHz 100uF 6.3V ±10% CASE-B-3528-21(mm) Tantalum Capacitors ROHS"
+			(at 151.13 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30041,8 +30271,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C126586"
-			(at 69.85 243.84 0)
+		(property "LCSC" "C16133"
+			(at 151.13 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30052,8 +30282,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 69.85 243.84 0)
+		(property "Manufacturer" "--"
+			(at 151.13 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30063,8 +30293,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "GCM21BR71A106KE22L"
-			(at 69.85 243.84 0)
+		(property "Manufacturer Part" "TAJB107K006RNJ"
+			(at 151.13 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30073,27 +30303,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Field8" "10uF"
-			(at 75.692 244.348 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cd9f0a41-0430-4b2a-889d-69f692558164")
 		)
 		(pin "1"
-			(uuid "bd5987ef-76b2-4881-9e54-de5f525e05ce")
+			(uuid "bd01c436-bd6b-4de4-9025-11f3efad694a")
+		)
+		(pin "2"
+			(uuid "a0155cca-d49b-4f52-aaeb-3a2f86dd7d2c")
 		)
 		(instances
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "C39")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -34267,6 +34487,129 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:CC0603KRX7R9BB104")
+		(at 261.62 186.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5536d54-7c74-4302-abed-27f0dcb86791")
+		(property "Reference" "C76"
+			(at 256.286 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104"
+			(at 256.54 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 261.62 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+			(at 261.62 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 261.62 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 261.62 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 261.62 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
+			(at 261.62 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "100nF"
+			(at 258.064 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6f0b2c97-e075-470c-842a-a02d55f1108e")
+		)
+		(pin "1"
+			(uuid "aed11410-3c46-447d-9d2f-d467682533e9")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:74LVX4245MTCX")
 		(at 58.42 196.85 0)
 		(unit 1)
@@ -34446,129 +34789,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:GRM21BR71A225KA01L")
-		(at 187.96 177.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca57bbf5-de45-4a80-829c-fd8f00bdda3d")
-		(property "Reference" "C3"
-			(at 180.34 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GRM21BR71A225KA01L"
-			(at 182.88 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 187.96 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008031207_Murata-Electronics-GRM21BR71A225KA01L_C117966.pdf"
-			(at 187.96 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10V 2.2uF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 187.96 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C117966"
-			(at 187.96 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 187.96 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "GRM21BR71A225KA01L"
-			(at 187.96 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field8" "2.2uF"
-			(at 183.896 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34510299-4c4e-4744-9e02-02d45607f096")
-		)
-		(pin "2"
-			(uuid "d490f430-27c2-4eb3-822f-74674588f36e")
-		)
-		(instances
-			(project "DrunkPCDebugger"
-				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 73.66 127 0)
 		(unit 1)
@@ -34641,6 +34861,235 @@
 			(project "DrunkPCDebugger"
 				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:CL10A225KO8NNNC")
+		(at 194.31 179.07 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc88d9b5-675c-447d-a4b9-4982acd09158")
+		(property "Reference" "C6"
+			(at 197.104 177.038 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF 16V"
+			(at 195.58 180.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 194.31 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A225KO8NNNC_C23630.pdf"
+			(at 194.31 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16V 2.2uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 194.31 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23630"
+			(at 194.31 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 194.31 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL10A225KO8NNNC"
+			(at 194.31 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ef4e37e4-8459-4477-8f32-4e455815920b")
+		)
+		(pin "1"
+			(uuid "f92e36c3-f38d-4632-ab91-41d55e6b4c91")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:CL21A106KAYNNNE")
+		(at 69.85 245.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd87fcda-5340-4f32-91ea-5d75cdb384a6")
+		(property "Reference" "C4"
+			(at 66.548 243.332 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V"
+			(at 59.944 247.142 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 69.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf"
+			(at 69.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF 25V X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 69.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 69.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 69.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL21A106KAYNNNE"
+			(at 69.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "74735802-da99-4508-8d96-d0786eb33edd")
+		)
+		(pin "1"
+			(uuid "a52d8bfd-98fd-41a4-885a-07f37035627d")
+		)
+		(instances
+			(project "DrunkPCDebugger"
+				(path "/1e9a0f82-fea3-4d3c-b63f-ebf3ff6dcfce"
+					(reference "C4")
 					(unit 1)
 				)
 			)
