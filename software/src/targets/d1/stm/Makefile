@@ -170,7 +170,7 @@ CFLAGS += -MMD -MP -MF"$(@:%.o=%.d)"
 # LDFLAGS
 #######################################
 # link script
-LDSCRIPT = STM32H723xG_flash.ld
+LDSCRIPT = STM32H723xE_flash.ld
 
 # libraries
 LIBS = -lc -lm -lnosys 

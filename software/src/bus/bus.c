@@ -1,4 +1,5 @@
 #include <bus/bus.h>
+#include <bus/power.h>
 
 #include <kal/delay.h>
 #include <kal/gpio.h>
@@ -13,6 +14,8 @@
 #define BUS_READ_ACCESS_NS     (300U)
 #define BUS_DIRECTION_SETUP_NS (50U)
 #define BUS_RECOVERY_NS        (100U)
+
+static bool bus_driven_by_mcu = false;
 
 static void bus_transceivers_disable(void) {
     kal_gpio_write(&gpio_bus_oe_pin, !BUS_OE_ENABLED_LEVEL);
@@ -65,6 +68,7 @@ static void bus_take_control(void) {
     bus_addr_set_output();
     bus_data_set_input();
     bus_transceivers_enable();
+    bus_driven_by_mcu = true;
 }
 
 static void bus_give_control(void) {
@@ -72,6 +76,7 @@ static void bus_give_control(void) {
     bus_addr_set_input();
     bus_data_set_input();
     bus_control_set_input();
+    bus_driven_by_mcu = false;
 }
 
 static bool bus_wait_busack(bool level, uint32_t timeout_ms) {
@@ -89,10 +94,13 @@ void bus_init(void) {
 }
 
 bool bus_is_acquired(void) {
+    if(!bus_power_is_present()) return false;
     return kal_gpio_read(&gpio_busack_pin) == BUSACK_ACTIVE_LEVEL;
 }
 
 bool bus_acquire(void) {
+    if(!bus_power_is_present()) return false;
+
     kal_gpio_write(&gpio_busreq_pin, BUSREQ_ACTIVE_LEVEL);
 
     if(!bus_wait_busack(BUSACK_ACTIVE_LEVEL, BUS_ACQUIRE_TIMEOUT_MS)) {
@@ -108,7 +116,15 @@ bool bus_release(void) {
     bus_give_control();
     kal_gpio_write(&gpio_busreq_pin, !BUSREQ_ACTIVE_LEVEL);
 
+    if(!bus_power_is_present()) return true;
     return bus_wait_busack(!BUSACK_ACTIVE_LEVEL, BUS_RELEASE_TIMEOUT_MS);
+}
+
+void bus_release_if_unpowered(void) {
+    if(!bus_driven_by_mcu || bus_power_is_present()) return;
+
+    bus_give_control();
+    kal_gpio_write(&gpio_busreq_pin, !BUSREQ_ACTIVE_LEVEL);
 }
 
 void bus_write_memory(uint16_t address, uint8_t data) {

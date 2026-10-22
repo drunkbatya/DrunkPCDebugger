@@ -19,10 +19,11 @@ extern "C" {
 #define BUS_CONTROL_PORT GPIOB
 #define BUS_CONTROL_MASK (_WR_Pin | _RD_Pin | _IORQ_Pin | _MEMRQ_Pin | _NMI_Pin | _INT_Pin)
 
-#define BUS_OE_ENABLED_LEVEL  (false)
+#define BUS_OE_ENABLED_LEVEL  (true)
 #define BUS_DIR_TO_MCU_LEVEL  (true)
 #define BUS_DIR_TO_CPU_LEVEL  (false)
 #define BUS_PWR_ENABLED_LEVEL (true)
+#define BUS_5V_PRESENT_LEVEL  (true)
 
 #define BUSREQ_ACTIVE_LEVEL (false)
 #define BUSACK_ACTIVE_LEVEL (false)
@@ -38,6 +39,7 @@ extern "C" {
 
 extern const GpioPin gpio_led_pin;
 extern const GpioPin gpio_bus_pwr_pin;
+extern const GpioPin gpio_bus_5v_sense_pin;
 
 extern const GpioPin gpio_addr_bus_dir_pin;
 extern const GpioPin gpio_data_bus_dir_pin;

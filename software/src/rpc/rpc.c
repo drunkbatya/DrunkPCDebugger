@@ -66,23 +66,40 @@ static bool rpc_is_range_valid(uint32_t address, uint32_t size) {
     return (address + size) <= BUS_ADDRESS_SPACE;
 }
 
-static void rpc_handle_bus_control(void) {
-    const bool acquire = rpc_request.payload.bus_control_request.acquire;
+static debugger_ErrType rpc_bus_control(bool acquire) {
+    if(acquire && !bus_power_is_present()) return debugger_ErrType_ERROR_TYPE_BUS_NOT_POWERED;
+
     const bool succeeded = acquire ? bus_acquire() : bus_release();
+    return succeeded ? debugger_ErrType_ERROR_TYPE_OK : debugger_ErrType_ERROR_TYPE_TIMEOUT;
+}
+
+static void rpc_handle_bus_control(void) {
+    const debugger_ErrType err_type =
+        rpc_bus_control(rpc_request.payload.bus_control_request.acquire);
 
     rpc_response.which_payload = debugger_RpcResponse_bus_control_request_tag;
-    rpc_response.payload.bus_control_request = rpc_make_error(
-        succeeded ? debugger_ErrType_ERROR_TYPE_OK : debugger_ErrType_ERROR_TYPE_TIMEOUT);
+    rpc_response.payload.bus_control_request = rpc_make_error(err_type);
+}
+
+static debugger_ErrType rpc_power_on_bus(bool enable) {
+    if(!enable) {
+        bus_power_set_enabled(false);
+        return debugger_ErrType_ERROR_TYPE_OK;
+    }
+    if(!bus_power_turn_on()) return debugger_ErrType_ERROR_TYPE_BUS_NOT_POWERED;
+    return debugger_ErrType_ERROR_TYPE_OK;
 }
 
 static void rpc_handle_power_on_bus(void) {
-    bus_power_set_enabled(rpc_request.payload.power_on_bus_request.enable);
+    const debugger_ErrType err_type =
+        rpc_power_on_bus(rpc_request.payload.power_on_bus_request.enable);
 
     rpc_response.which_payload = debugger_RpcResponse_power_on_bus_request_tag;
-    rpc_response.payload.power_on_bus_request = rpc_make_error(debugger_ErrType_ERROR_TYPE_OK);
+    rpc_response.payload.power_on_bus_request = rpc_make_error(err_type);
 }
 
 static debugger_ErrType rpc_write_flash(const debugger_WriteFlashRequest* request) {
+    if(!bus_power_is_present()) return debugger_ErrType_ERROR_TYPE_BUS_NOT_POWERED;
     if(!bus_is_acquired()) return debugger_ErrType_ERROR_TYPE_BUS_NOT_ACQUIRED;
     if(!rpc_is_range_valid(request->address, request->data.size)) {
         return debugger_ErrType_ERROR_TYPE_OUT_OF_RANGE;
@@ -102,6 +119,7 @@ static void rpc_handle_write_flash(void) {
 
 static debugger_ErrType
     rpc_read_flash(const debugger_ReadFlashRequest* request, debugger_ReadFlashResponse* response) {
+    if(!bus_power_is_present()) return debugger_ErrType_ERROR_TYPE_BUS_NOT_POWERED;
     if(!bus_is_acquired()) return debugger_ErrType_ERROR_TYPE_BUS_NOT_ACQUIRED;
     if(!rpc_is_range_valid(request->address, request->size)) {
         return debugger_ErrType_ERROR_TYPE_OUT_OF_RANGE;

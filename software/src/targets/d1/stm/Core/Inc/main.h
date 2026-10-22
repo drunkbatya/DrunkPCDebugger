@@ -120,6 +120,8 @@ void Error_Handler(void);
 #define A14_GPIO_Port GPIOD
 #define A15_Pin LL_GPIO_PIN_15
 #define A15_GPIO_Port GPIOD
+#define BUS_5V_SENSE_Pin LL_GPIO_PIN_8
+#define BUS_5V_SENSE_GPIO_Port GPIOA
 #define A0_Pin LL_GPIO_PIN_0
 #define A0_GPIO_Port GPIOD
 #define A1_Pin LL_GPIO_PIN_1

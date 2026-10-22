@@ -60,6 +60,10 @@ static void kal_init_bus_power_disabled(void) {
     kal_init_pin_as_output(&gpio_bus_pwr_pin, !BUS_PWR_ENABLED_LEVEL, GpioSpeedLow);
 }
 
+static void kal_init_bus_5v_sense_as_input(void) {
+    kal_gpio_init(&gpio_bus_5v_sense_pin, GpioModeInput, GpioPullNo, GpioSpeedLow);
+}
+
 static void kal_init_safe_state(void) {
     kal_enable_gpio_port_clocks();
     kal_init_transceivers_disabled();
@@ -71,6 +75,7 @@ static void kal_init_safe_state(void) {
 
     kal_init_cpu_control_as_output();
     kal_init_bus_power_disabled();
+    kal_init_bus_5v_sense_as_input();
 }
 
 void kal_crash(void) {

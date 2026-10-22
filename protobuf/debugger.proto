@@ -25,6 +25,7 @@ enum ErrType {
     ERROR_TYPE_OUT_OF_RANGE = 5;
     ERROR_TYPE_BAD_REQUEST = 6;
     ERROR_TYPE_RX_OVERRUN = 7;
+    ERROR_TYPE_BUS_NOT_POWERED = 8;
 }
 
 message ErrorResponse {

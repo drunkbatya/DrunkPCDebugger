@@ -18,6 +18,8 @@ bool bus_release(void);
 
 bool bus_is_acquired(void);
 
+void bus_release_if_unpowered(void);
+
 void bus_write_memory(uint16_t address, uint8_t data);
 
 uint8_t bus_read_memory(uint16_t address);

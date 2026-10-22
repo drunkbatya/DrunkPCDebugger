@@ -11,5 +11,6 @@ void app_main(void) {
 
     while(1) {
         rpc_process();
+        bus_release_if_unpowered();
     }
 }
