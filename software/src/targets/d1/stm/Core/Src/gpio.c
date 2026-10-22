@@ -55,10 +55,10 @@ void MX_GPIO_Init(void)
   LL_GPIO_ResetOutputPin(GPIOA, BUS_PWR_Pin|CTRL_BUS_DIR_Pin);
 
   /**/
-  LL_GPIO_ResetOutputPin(GPIOB, ADDR_BUS_DIR_Pin|DATA_BUS_DIR_Pin|_WAIT_Pin);
+  LL_GPIO_ResetOutputPin(GPIOB, ADDR_BUS_DIR_Pin|BUS_OE_Pin|DATA_BUS_DIR_Pin|_WAIT_Pin);
 
   /**/
-  LL_GPIO_SetOutputPin(GPIOB, BUS_OE_Pin|_BUSREQ_Pin|_CPURST_Pin);
+  LL_GPIO_SetOutputPin(GPIOB, _BUSREQ_Pin|_CPURST_Pin);
 
   /**/
   GPIO_InitStruct.Pin = D2_Pin|D3_Pin|D4_Pin|D5_Pin
@@ -99,6 +99,12 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Mode = LL_GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
   LL_GPIO_Init(GPIOD, &GPIO_InitStruct);
+
+  /**/
+  GPIO_InitStruct.Pin = BUS_5V_SENSE_Pin;
+  GPIO_InitStruct.Mode = LL_GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
+  LL_GPIO_Init(BUS_5V_SENSE_GPIO_Port, &GPIO_InitStruct);
 
   /**/
   GPIO_InitStruct.Pin = _WAIT_Pin;
